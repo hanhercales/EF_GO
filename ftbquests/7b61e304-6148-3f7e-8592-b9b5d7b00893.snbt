@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "7b61e30461483f7e8592b9b5d7b00893"
+	name: "changkhoyeuem#7b61e304"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

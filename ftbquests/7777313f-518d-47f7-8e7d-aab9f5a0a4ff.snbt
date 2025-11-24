@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "7777313f518d47f78e7daab9f5a0a4ff"
+	name: "uwuAri_#7777313f"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}

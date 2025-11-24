@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "a886f6603c2a11ea9ed6b42e996a7d7a"
+	name: "hanhercules#a886f660"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}
