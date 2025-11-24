@@ -1979,6 +1979,7 @@
       "minecraft:warm_ocean": "2025-11-23 17:06:26 +0700",
       "minecraft:deep_lukewarm_ocean": "2025-11-23 16:43:54 +0700",
       "minecraft:old_growth_birch_forest": "2025-11-23 16:47:15 +0700",
+      "minecraft:deep_dark": "2025-11-24 15:02:28 +0700",
       "minecraft:meadow": "2025-11-21 00:38:46 +0700",
       "minecraft:savanna": "2025-11-23 17:02:53 +0700",
       "minecraft:plains": "2025-11-20 23:32:12 +0700"
@@ -2793,6 +2794,7 @@
       "muskeg": "2025-11-22 13:03:46 +0700",
       "shrubland": "2025-11-23 16:54:26 +0700",
       "rocky_shrubland": "2025-11-23 16:54:35 +0700",
+      "erupting_inferno": "2025-11-24 21:54:21 +0700",
       "floodplain": "2025-11-22 10:52:28 +0700",
       "jacaranda_glade": "2025-11-23 16:41:34 +0700",
       "old_growth_woodland": "2025-11-23 21:59:06 +0700",
@@ -2810,6 +2812,7 @@
       "aspen_glade": "2025-11-21 00:16:02 +0700",
       "dune_beach": "2025-11-22 10:43:41 +0700",
       "seasonal_forest": "2025-11-21 01:19:31 +0700",
+      "volcano": "2025-11-24 15:02:29 +0700",
       "pasture": "2025-11-22 11:14:07 +0700",
       "lavender_field": "2025-11-22 11:13:06 +0700",
       "fir_clearing": "2025-11-22 01:12:48 +0700",
@@ -2822,6 +2825,7 @@
       "gravel_beach": "2025-11-21 01:19:03 +0700",
       "glowing_grotto": "2025-11-23 21:44:55 +0700",
       "origin_valley": "2025-11-22 13:25:41 +0700",
+      "undergrowth": "2025-11-24 21:51:00 +0700",
       "rainforest": "2025-11-22 10:52:13 +0700",
       "snowy_maple_woods": "2025-11-23 10:47:51 +0700"
     },
@@ -2999,6 +3003,7 @@
       "minecraft:piglin_brute": "2025-11-22 00:44:39 +0700",
       "minecraft:spider": "2025-11-22 01:21:59 +0700",
       "minecraft:creeper": "2025-11-21 01:33:34 +0700",
+      "minecraft:wither": "2025-11-24 23:11:54 +0700",
       "minecraft:evoker": "2025-11-22 11:25:14 +0700",
       "minecraft:phantom": "2025-11-23 11:28:02 +0700",
       "minecraft:zombified_piglin": "2025-11-21 02:10:49 +0700",
@@ -5490,8 +5495,11 @@
   },
   "cataclysm:kill_all_bosses": {
     "criteria": {
+      "cataclysm:maledictus": "2025-11-24 21:14:42 +0700",
       "cataclysm:scylla": "2025-11-23 11:44:30 +0700",
-      "cataclysm:the_leviathan": "2025-11-23 22:29:11 +0700"
+      "cataclysm:the_harbinger": "2025-11-24 23:13:58 +0700",
+      "cataclysm:the_leviathan": "2025-11-23 22:29:11 +0700",
+      "cataclysm:ignis": "2025-11-24 22:44:49 +0700"
     },
     "done": false
   },
@@ -5880,6 +5888,54 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2025-11-24 00:44:35 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2025-11-24 00:44:35 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2025-11-24 00:44:35 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2025-11-24 00:44:35 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:root": {
+    "criteria": {
+      "in_tf": "2025-11-24 00:50:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_bed": {
+    "criteria": {
+      "has_pink_wool": "2025-11-24 00:50:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_banner": {
+    "criteria": {
+      "has_pink_wool": "2025-11-24 00:50:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_carpet": {
+    "criteria": {
+      "has_pink_wool": "2025-11-24 00:50:24 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/brown_banner": {
     "criteria": {
       "has_brown_wool": "2025-11-24 00:50:34 +0700"
@@ -5892,15 +5948,51 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+  "minecraft:recipes/decorations/brown_carpet": {
     "criteria": {
-      "has_mutton": "2025-11-24 02:15:54 +0700"
+      "has_brown_wool": "2025-11-24 00:50:34 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_bed": {
+    "criteria": {
+      "has_blue_wool": "2025-11-24 00:51:13 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_banner": {
+    "criteria": {
+      "has_blue_wool": "2025-11-24 00:51:13 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_carpet": {
+    "criteria": {
+      "has_blue_wool": "2025-11-24 00:51:13 +0700"
     },
     "done": true
   },
   "minecraft:recipes/decorations/light_blue_bed": {
     "criteria": {
       "has_light_blue_wool": "2025-11-24 00:51:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_carpet": {
+    "criteria": {
+      "has_light_blue_wool": "2025-11-24 00:51:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_banner": {
+    "criteria": {
+      "has_light_blue_wool": "2025-11-24 00:51:14 +0700"
+    },
+    "done": true
+  },
+  "traveloptics:abyssal_hide_set": {
+    "criteria": {
+      "abyssal_armor": "2025-11-24 00:54:54 +0700"
     },
     "done": true
   },
@@ -5916,9 +6008,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/oak_hanging_sign": {
+  "minecraft:recipes/building_blocks/birch_planks": {
     "criteria": {
-      "has_stripped_logs": "2025-11-24 01:30:37 +0700"
+      "has_logs": "2025-11-24 01:19:17 +0700"
     },
     "done": true
   },
@@ -5928,33 +6020,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/birch_planks": {
+  "minecraft:recipes/building_blocks/polished_basalt": {
     "criteria": {
-      "has_logs": "2025-11-24 01:19:17 +0700"
+      "has_basalt": "2025-11-24 01:20:59 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blue_bed": {
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
     "criteria": {
-      "has_blue_wool": "2025-11-24 00:51:13 +0700"
+      "has_basalt": "2025-11-24 01:20:59 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/pink_bed": {
+  "minecraft:recipes/decorations/oak_hanging_sign": {
     "criteria": {
-      "has_pink_wool": "2025-11-24 00:50:24 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_blue_carpet": {
-    "criteria": {
-      "has_light_blue_wool": "2025-11-24 00:51:14 +0700"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/sweet_berry_cookie": {
-    "criteria": {
-      "has_sweet_berries": "2025-11-24 02:00:38 +0700"
+      "has_stripped_logs": "2025-11-24 01:30:37 +0700"
     },
     "done": true
   },
@@ -5964,51 +6044,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blue_banner": {
+  "farmersdelight:recipes/food/sweet_berry_cookie": {
     "criteria": {
-      "has_blue_wool": "2025-11-24 00:51:13 +0700"
+      "has_sweet_berries": "2025-11-24 02:00:38 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/white_bed": {
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
     "criteria": {
-      "has_white_wool": "2025-11-24 00:44:35 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/pink_banner": {
-    "criteria": {
-      "has_pink_wool": "2025-11-24 00:50:24 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_basalt": {
-    "criteria": {
-      "has_basalt": "2025-11-24 01:20:59 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/brown_carpet": {
-    "criteria": {
-      "has_brown_wool": "2025-11-24 00:50:34 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/painting": {
-    "criteria": {
-      "has_wool": "2025-11-24 00:44:35 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_blue_banner": {
-    "criteria": {
-      "has_light_blue_wool": "2025-11-24 00:51:14 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/white_carpet": {
-    "criteria": {
-      "has_white_wool": "2025-11-24 00:44:35 +0700"
+      "has_mutton": "2025-11-24 02:15:54 +0700"
     },
     "done": true
   },
@@ -6017,18 +6061,6 @@
       "has_mutton": "2025-11-24 02:15:54 +0700"
     },
     "done": true
-  },
-  "minecraft:recipes/decorations/white_banner": {
-    "criteria": {
-      "has_white_wool": "2025-11-24 00:44:35 +0700"
-    },
-    "done": true
-  },
-  "minecraft:adventure/salvage_sherd": {
-    "criteria": {
-      "ocean_ruin_warm": "2025-11-24 02:44:07 +0700"
-    },
-    "done": false
   },
   "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
     "criteria": {
@@ -6042,33 +6074,393 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blue_carpet": {
+  "minecraft:adventure/salvage_sherd": {
     "criteria": {
-      "has_blue_wool": "2025-11-24 00:51:13 +0700"
+      "ocean_ruin_warm": "2025-11-24 02:44:07 +0700"
+    },
+    "done": false
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2025-11-24 14:21:26 +0700"
     },
     "done": true
   },
-  "traveloptics:abyssal_hide_set": {
+  "sophisticatedbackpacks:recipes/misc/copper_backpack": {
     "criteria": {
-      "abyssal_armor": "2025-11-24 00:54:54 +0700"
+      "has_backpack": "2025-11-24 14:23:54 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+  "sophisticatedbackpacks:recipes/misc/iron_backpack": {
     "criteria": {
-      "has_basalt": "2025-11-24 01:20:59 +0700"
+      "has_backpack": "2025-11-24 14:23:54 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/pink_carpet": {
+  "minecraft:adventure/trade": {
     "criteria": {
-      "has_pink_wool": "2025-11-24 00:50:24 +0700"
+      "traded": "2025-11-24 14:29:00 +0700"
     },
     "done": true
   },
-  "twilightforest:root": {
+  "minecraft:adventure/avoid_vibration": {
     "criteria": {
-      "in_tf": "2025-11-24 00:50:14 +0700"
+      "avoid_vibration": "2025-11-24 15:03:06 +0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:arachnophobes_nightmare": {
+    "criteria": {
+      "arachnophobes_nightmare_0": "2025-11-24 15:04:39 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/recovery_compass": {
+    "criteria": {
+      "has_echo_shard": "2025-11-24 15:22:17 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2025-11-24 15:28:18 +0700"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/steal_from_wizard": {
+    "criteria": {
+      "anger_wizard": "2025-11-24 16:03:55 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/silence_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-11-24 16:40:49 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/silence_armor_trim_smithing_template": {
+    "criteria": {
+      "has_silence_armor_trim_smithing_template": "2025-11-24 16:40:49 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-11-24 16:46:48 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-11-24 16:46:48 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-11-24 16:46:48 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_deepslate_tiles": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-11-24 16:46:48 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_tiles_stonecutting": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-11-24 16:46:48 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-11-24 16:46:48 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab": {
+    "criteria": {
+      "has_deepslate_tiles": "2025-11-24 16:46:48 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ward_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-11-24 16:47:06 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ward_armor_trim_smithing_template": {
+    "criteria": {
+      "has_ward_armor_trim_smithing_template": "2025-11-24 16:47:06 +0700"
+    },
+    "done": true
+  },
+  "traveloptics:discover_echo_shrine": {
+    "criteria": {
+      "echo_shrine": "2025-11-24 16:51:23 +0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:dismantledto_bones": {
+    "criteria": {
+      "dismantledto_bones_0": "2025-11-24 18:07:12 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-11-24 18:07:24 +0700"
+    },
+    "done": true
+  },
+  "dungeons_and_combat:the_cursed_soul": {
+    "criteria": {
+      "the_cursed_soul_0": "2025-11-24 20:47:25 +0700"
+    },
+    "done": true
+  },
+  "graveyard:graveyard/corruption": {
+    "criteria": {
+      "corruption": "2025-11-24 20:53:21 +0700"
+    },
+    "done": true
+  },
+  "cataclysm:find_frosted_prison": {
+    "criteria": {
+      "prison": "2025-11-24 20:53:34 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:main/craft_knife": {
+    "criteria": {
+      "diamond_knife": "2025-11-24 21:00:34 +0700"
+    },
+    "done": true
+  },
+  "cataclysm:kill_maledictus": {
+    "criteria": {
+      "ignis": "2025-11-24 21:14:42 +0700"
+    },
+    "done": true
+  },
+  "traveloptics:cursed_wraithblade": {
+    "criteria": {
+      "get_wraithblade": "2025-11-24 21:14:54 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2025-11-24 21:46:20 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2025-11-24 21:46:20 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2025-11-24 21:47:03 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2025-11-24 21:47:03 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2025-11-24 21:47:03 +0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2025-11-24 22:00:41 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2025-11-24 22:00:41 +0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/distract_piglin": {
+    "criteria": {
+      "distract_piglin": "2025-11-24 22:02:41 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/brimstone_cluster": {
+    "criteria": {
+      "has_brimstone": "2025-11-24 22:23:52 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/brimstone_brick_stairs_from_brimstone_stonecutting": {
+    "criteria": {
+      "has_brimstone": "2025-11-24 22:23:52 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/brimstone_bud_from_brimstone_stonecutting": {
+    "criteria": {
+      "has_brimstone": "2025-11-24 22:23:52 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/brimstone_brick_slab_from_brimstone_stonecutting": {
+    "criteria": {
+      "has_brimstone": "2025-11-24 22:23:52 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/brimstone_fumarole": {
+    "criteria": {
+      "has_brimstone": "2025-11-24 22:23:52 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/brimstone_brick_wall_from_brimstone_stonecutting": {
+    "criteria": {
+      "has_brimstone": "2025-11-24 22:23:52 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/chiseled_brimstone_bricks_from_brimstone_stonecutting": {
+    "criteria": {
+      "has_brimstone": "2025-11-24 22:23:52 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/brimstone_bud": {
+    "criteria": {
+      "has_brimstone": "2025-11-24 22:23:52 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/brimstone_cluster_from_brimstone_stonecutting": {
+    "criteria": {
+      "has_brimstone": "2025-11-24 22:23:52 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/brimstone_bricks_from_brimstone_stonecutting": {
+    "criteria": {
+      "has_brimstone": "2025-11-24 22:23:52 +0700"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/brimstone_bricks": {
+    "criteria": {
+      "has_brimstone": "2025-11-24 22:23:52 +0700"
+    },
+    "done": true
+  },
+  "cataclysm:find_burning_arena": {
+    "criteria": {
+      "arena": "2025-11-24 22:26:17 +0700"
+    },
+    "done": true
+  },
+  "cataclysm:kill_revenant": {
+    "criteria": {
+      "endergolem": "2025-11-24 22:27:56 +0700"
+    },
+    "done": true
+  },
+  "cataclysm:kill_ignis": {
+    "criteria": {
+      "ignis": "2025-11-24 22:44:49 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2025-11-24 22:51:41 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2025-11-24 23:00:16 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_copper_block": {
+    "criteria": {
+      "has_raw_copper": "2025-11-24 23:00:16 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2025-11-24 23:00:16 +0700"
+    },
+    "done": true
+  },
+  "cataclysm:find_ancient_factory": {
+    "criteria": {
+      "factory": "2025-11-24 23:02:03 +0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2025-11-24 23:11:08 +0700"
+    },
+    "done": true
+  },
+  "slu:wither_hunter": {
+    "criteria": {
+      "wither_hunter_0": "2025-11-24 23:11:54 +0700"
+    },
+    "done": true
+  },
+  "endrem:main/wither_eye": {
+    "criteria": {
+      "wither_eye": "2025-11-24 23:11:58 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2025-11-24 23:11:58 +0700"
+    },
+    "done": true
+  },
+  "cataclysm:kill_harbinger": {
+    "criteria": {
+      "theharbinger": "2025-11-24 23:13:58 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_lapis_block": "2025-11-24 23:14:25 +0700"
+    },
+    "done": true
+  },
+  "traveloptics:the_obliterator": {
+    "criteria": {
+      "get_obliterator": "2025-11-24 23:17:15 +0700"
+    },
+    "done": true
+  },
+  "traveloptics:the_obliterator_mastery": {
+    "criteria": {
+      "max_obliterator": "2025-11-24 23:19:47 +0700"
     },
     "done": true
   },
