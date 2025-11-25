@@ -1953,6 +1953,7 @@
     "criteria": {
       "minecraft:old_growth_pine_taiga": "2025-11-23 16:48:40 +0700",
       "minecraft:mushroom_fields": "2025-11-22 13:21:19 +0700",
+      "minecraft:taiga": "2025-11-25 16:10:24 +0700",
       "minecraft:deep_ocean": "2025-11-22 10:40:36 +0700",
       "minecraft:frozen_river": "2025-11-22 01:42:59 +0700",
       "minecraft:sunflower_plains": "2025-11-23 22:01:59 +0700",
@@ -1978,6 +1979,7 @@
       "minecraft:snowy_beach": "2025-11-23 10:46:45 +0700",
       "minecraft:warm_ocean": "2025-11-23 17:06:26 +0700",
       "minecraft:deep_lukewarm_ocean": "2025-11-23 16:43:54 +0700",
+      "minecraft:flower_forest": "2025-11-25 16:08:50 +0700",
       "minecraft:old_growth_birch_forest": "2025-11-23 16:47:15 +0700",
       "minecraft:deep_dark": "2025-11-24 15:02:28 +0700",
       "minecraft:meadow": "2025-11-21 00:38:46 +0700",
@@ -2793,14 +2795,17 @@
     "criteria": {
       "muskeg": "2025-11-22 13:03:46 +0700",
       "shrubland": "2025-11-23 16:54:26 +0700",
+      "snowblossom_grove": "2025-11-25 14:41:15 +0700",
       "rocky_shrubland": "2025-11-23 16:54:35 +0700",
       "erupting_inferno": "2025-11-24 21:54:21 +0700",
       "floodplain": "2025-11-22 10:52:28 +0700",
+      "highland": "2025-11-25 14:50:43 +0700",
       "jacaranda_glade": "2025-11-23 16:41:34 +0700",
       "old_growth_woodland": "2025-11-23 21:59:06 +0700",
       "maple_woods": "2025-11-23 10:49:02 +0700",
       "crystalline_chasm": "2025-11-22 00:44:16 +0700",
       "field": "2025-11-21 00:45:03 +0700",
+      "orchard": "2025-11-25 16:08:02 +0700",
       "overgrown_greens": "2025-11-22 10:47:25 +0700",
       "moor": "2025-11-23 21:54:08 +0700",
       "mediterranean_forest": "2025-11-24 02:28:29 +0700",
@@ -2827,7 +2832,8 @@
       "origin_valley": "2025-11-22 13:25:41 +0700",
       "undergrowth": "2025-11-24 21:51:00 +0700",
       "rainforest": "2025-11-22 10:52:13 +0700",
-      "snowy_maple_woods": "2025-11-23 10:47:51 +0700"
+      "snowy_maple_woods": "2025-11-23 10:47:51 +0700",
+      "crag": "2025-11-25 16:08:34 +0700"
     },
     "done": false
   },
@@ -6473,6 +6479,384 @@
   "slu:wukong_hunter": {
     "criteria": {
       "wukong_hunter_0": "2025-11-25 01:38:32 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_bed": {
+    "criteria": {
+      "has_orange_wool": "2025-11-25 13:40:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_banner": {
+    "criteria": {
+      "has_orange_wool": "2025-11-25 13:40:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_carpet": {
+    "criteria": {
+      "has_orange_wool": "2025-11-25 13:40:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2025-11-25 13:56:57 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/stuffed_pumpkin_block": {
+    "criteria": {
+      "has_pumpkin": "2025-11-25 13:58:11 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2025-11-25 13:58:11 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2025-11-25 13:58:11 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2025-11-25 13:58:45 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-11-25 14:13:05 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-11-25 14:13:05 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_gold_block": {
+    "criteria": {
+      "has_raw_gold": "2025-11-25 14:13:05 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2025-11-25 14:41:11 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2025-11-25 14:41:11 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2025-11-25 14:42:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2025-11-25 14:42:47 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2025-11-25 14:42:47 +0700"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/discover_toxic_caves": {
+    "criteria": {
+      "discover": "2025-11-25 14:55:08 +0700"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/toxic_paste": {
+    "criteria": {
+      "toxic_paste": "2025-11-25 14:56:12 +0700"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/uranium": {
+    "criteria": {
+      "uranium": "2025-11-25 14:56:39 +0700"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/defeat_brainiac": {
+    "criteria": {
+      "killed": "2025-11-25 14:56:59 +0700"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/defeat_nucleeper": {
+    "criteria": {
+      "killed": "2025-11-25 14:59:45 +0700"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/tame_raycat": {
+    "criteria": {
+      "killed": "2025-11-25 15:21:46 +0700"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/hazmat_armor": {
+    "criteria": {
+      "helmet": "2025-11-25 15:28:27 +0700"
+    },
+    "done": false
+  },
+  "alexscaves:alexscaves/eat_radiation_foods": {
+    "criteria": {
+      "spelunkie": "2025-11-25 15:58:05 +0700"
+    },
+    "done": false
+  },
+  "alexscaves:alexscaves/tame_tremorzilla": {
+    "criteria": {
+      "killed": "2025-11-25 16:24:02 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2025-11-25 16:25:26 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-11-25 16:44:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone": {
+    "criteria": {
+      "has_sandstone": "2025-11-25 16:44:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_sandstone": "2025-11-25 16:44:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-11-25 16:44:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-11-25 16:44:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-11-25 16:44:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-11-25 16:44:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab": {
+    "criteria": {
+      "has_sandstone": "2025-11-25 16:44:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone": {
+    "criteria": {
+      "has_sandstone": "2025-11-25 16:44:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-11-25 16:44:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall": {
+    "criteria": {
+      "has_sandstone": "2025-11-25 16:44:14 +0700"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/tremorzilla_egg": {
+    "criteria": {
+      "quarry": "2025-11-25 16:50:08 +0700"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/uranium_rod": {
+    "criteria": {
+      "limestone": "2025-11-25 16:54:46 +0700"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/nuclear_bomb": {
+    "criteria": {
+      "nuclear_bomb": "2025-11-25 16:55:11 +0700"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/hatch_tremorzilla_egg": {
+    "criteria": {
+      "hatch_tremorzilla_egg": "2025-11-25 16:56:20 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_glazed_terracotta": {
+    "criteria": {
+      "has_purple_terracotta": "2025-11-25 16:57:12 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/wood/spruce_banister": {
+    "criteria": {
+      "has_item": "2025-11-25 16:57:12 +0700"
+    },
+    "done": true
+  },
+  "mowziesmobs:kill_frostmaw": {
+    "criteria": {
+      "frostmaw": "2025-11-25 17:30:41 +0700"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/discover_primordial_caves": {
+    "criteria": {
+      "discover": "2025-11-25 17:39:38 +0700"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/limestone": {
+    "criteria": {
+      "limestone": "2025-11-25 17:39:38 +0700"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/discover_dinosaur": {
+    "criteria": {
+      "killed_by_subterranodon": "2025-11-25 17:42:05 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mud_bricks": {
+    "criteria": {
+      "has_packed_mud": "2025-11-25 17:42:35 +0700"
+    },
+    "done": true
+  },
+  "graveyard:graveyard/crypt": {
+    "criteria": {
+      "crypt": "2025-11-25 17:49:49 +0700"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/tame_subterranodon": {
+    "criteria": {
+      "killed": "2025-11-25 17:55:32 +0700"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/defeat_big_dinosaur": {
+    "criteria": {
+      "killed_relicheirus": "2025-11-25 18:09:43 +0700"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-11-25 18:39:33 +0700"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/ominous_catalyst": {
+    "criteria": {
+      "nuclear_bomb": "2025-11-25 18:41:19 +0700"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/summon_luxtructosaurus": {
+    "criteria": {
+      "summon_luxtructosaurus": "2025-11-25 18:41:23 +0700"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/defeat_luxtructosaurus": {
+    "criteria": {
+      "killed": "2025-11-25 18:45:17 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2025-11-25 18:45:32 +0700"
+    },
+    "done": true
+  },
+  "traveloptics:gauntlet_of_extinction": {
+    "criteria": {
+      "get_extinction_gauntlet": "2025-11-25 18:45:32 +0700"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/tree_star": {
+    "criteria": {
+      "tree_star": "2025-11-25 18:45:32 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2025-11-25 18:45:32 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
+    "criteria": {
+      "has_warped_fungus": "2025-11-25 20:51:00 +0700"
+    },
+    "done": true
+  },
+  "traveloptics:flames_of_eldritch": {
+    "criteria": {
+      "get_eldritch_weapon": "2025-11-25 21:17:08 +0700"
+    },
+    "done": true
+  },
+  "traveloptics:flames_of_eldritch_mastery": {
+    "criteria": {
+      "max_eldritch_weapon": "2025-11-25 21:19:12 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_gold": {
+    "criteria": {
+      "has_raw_gold_block": "2025-11-25 21:56:04 +0700"
     },
     "done": true
   },
