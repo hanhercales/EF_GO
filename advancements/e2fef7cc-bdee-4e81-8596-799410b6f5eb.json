@@ -1951,6 +1951,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:deep_ocean": "2025-11-26 00:28:04 +0700",
       "minecraft:frozen_river": "2025-11-24 12:51:20 +0700",
       "minecraft:beach": "2025-11-24 12:49:26 +0700",
       "minecraft:river": "2025-11-24 14:11:12 +0700",
@@ -1958,10 +1959,14 @@
       "minecraft:snowy_taiga": "2025-11-24 13:12:12 +0700",
       "minecraft:cold_ocean": "2025-11-25 14:47:37 +0700",
       "minecraft:forest": "2025-11-24 12:47:23 +0700",
+      "minecraft:deep_cold_ocean": "2025-11-26 00:28:12 +0700",
+      "minecraft:frozen_ocean": "2025-11-26 00:56:45 +0700",
       "minecraft:ocean": "2025-11-25 14:47:16 +0700",
       "minecraft:snowy_beach": "2025-11-24 12:51:26 +0700",
+      "minecraft:flower_forest": "2025-11-26 00:22:19 +0700",
       "minecraft:deep_dark": "2025-11-24 15:12:57 +0700",
       "minecraft:meadow": "2025-11-24 14:48:18 +0700",
+      "minecraft:windswept_gravelly_hills": "2025-11-26 00:21:42 +0700",
       "minecraft:plains": "2025-11-24 13:56:50 +0700"
     },
     "done": false
@@ -2627,6 +2632,7 @@
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
       "muskeg": "2025-11-24 13:31:53 +0700",
+      "snowblossom_grove": "2025-11-26 00:34:37 +0700",
       "highland": "2025-11-25 14:50:45 +0700",
       "jacaranda_glade": "2025-11-25 14:46:46 +0700",
       "old_growth_woodland": "2025-11-24 15:12:31 +0700",
@@ -2634,11 +2640,16 @@
       "field": "2025-11-25 13:56:16 +0700",
       "coniferous_forest": "2025-11-25 13:54:14 +0700",
       "aspen_glade": "2025-11-24 14:49:02 +0700",
+      "dune_beach": "2025-11-26 00:22:35 +0700",
       "seasonal_forest": "2025-11-25 14:53:38 +0700",
       "volcano": "2025-11-24 15:13:12 +0700",
+      "pasture": "2025-11-26 00:25:55 +0700",
       "fir_clearing": "2025-11-25 14:46:14 +0700",
+      "pumpkin_patch": "2025-11-26 00:18:22 +0700",
+      "tundra": "2025-11-26 00:36:07 +0700",
       "gravel_beach": "2025-11-25 14:48:09 +0700",
-      "snowy_maple_woods": "2025-11-25 14:00:38 +0700"
+      "snowy_maple_woods": "2025-11-25 14:00:38 +0700",
+      "crag": "2025-11-26 00:24:33 +0700"
     },
     "done": false
   },
@@ -4606,6 +4617,18 @@
     },
     "done": true
   },
+  "traveloptics:gauntlet_of_extinction": {
+    "criteria": {
+      "get_extinction_gauntlet": "2025-11-25 23:30:53 +0700"
+    },
+    "done": true
+  },
+  "traveloptics:flames_of_eldritch_mastery": {
+    "criteria": {
+      "max_eldritch_weapon": "2025-11-25 23:30:53 +0700"
+    },
+    "done": true
+  },
   "born_in_chaos_v1:big_boy": {
     "criteria": {
       "big_boy_0": "2025-11-25 23:39:15 +0700"
@@ -4618,15 +4641,303 @@
     },
     "done": true
   },
-  "traveloptics:gauntlet_of_extinction": {
+  "minecraft:recipes/building_blocks/oak_planks": {
     "criteria": {
-      "get_extinction_gauntlet": "2025-11-25 23:30:53 +0700"
+      "has_logs": "2025-11-26 00:23:08 +0700"
     },
     "done": true
   },
-  "traveloptics:flames_of_eldritch_mastery": {
+  "minecraft:recipes/building_blocks/oak_wood": {
     "criteria": {
-      "max_eldritch_weapon": "2025-11-25 23:30:53 +0700"
+      "has_log": "2025-11-26 00:23:08 +0700"
+    },
+    "done": true
+  },
+  "mowziesmobs:kill_frostmaw": {
+    "criteria": {
+      "frostmaw": "2025-11-26 00:32:54 +0700"
+    },
+    "done": true
+  },
+  "slu:pantheon_hunter": {
+    "criteria": {
+      "pantheon_hunter_0": "2025-11-26 00:34:33 +0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:junior_summoner": {
+    "criteria": {
+      "junior_summoner_0": "2025-11-26 00:45:12 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_slab_from_smooth_sandstone_stonecutting": {
+    "criteria": {
+      "has_smooth_sandstone": "2025-11-26 00:59:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_slab": {
+    "criteria": {
+      "has_smooth_sandstone": "2025-11-26 00:59:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_stairs_from_smooth_sandstone_stonecutting": {
+    "criteria": {
+      "has_smooth_sandstone": "2025-11-26 00:59:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_stairs": {
+    "criteria": {
+      "has_smooth_sandstone": "2025-11-26 00:59:23 +0700"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_undead_pirate_ship": {
+    "criteria": {
+      "location0": "2025-11-26 01:01:10 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jack_o_lantern": {
+    "criteria": {
+      "has_carved_pumpkin": "2025-11-26 01:01:45 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/melon_juice": {
+    "criteria": {
+      "has_melon_slice": "2025-11-26 01:01:46 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/melon_popsicle": {
+    "criteria": {
+      "has_melon": "2025-11-26 01:01:46 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2025-11-26 01:01:46 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2025-11-26 01:01:46 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2025-11-26 01:01:46 +0700"
+    },
+    "done": true
+  },
+  "lootr:100loot": {
+    "criteria": {
+      "loot_stat": "2025-11-26 01:03:08 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2025-11-26 01:03:46 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2025-11-26 01:03:46 +0700"
+    },
+    "done": true
+  },
+  "endrem:main/eyes_recipe": {
+    "criteria": {
+      "eyes": "2025-11-26 01:03:46 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-11-26 01:06:03 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-11-26 01:06:03 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-11-26 01:06:03 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-11-26 01:06:03 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-11-26 01:06:03 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-11-26 01:06:03 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-11-26 01:06:03 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2025-11-26 01:12:46 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2025-11-26 01:12:46 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2025-11-26 01:12:46 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2025-11-26 01:23:10 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2025-11-26 01:23:10 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/pie_crust": {
+    "criteria": {
+      "has_wheat": "2025-11-26 01:23:10 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/wheat_dough_from_egg": {
+    "criteria": {
+      "has_wheat": "2025-11-26 01:23:10 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "potato": "2025-11-26 01:23:13 +0700"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2025-11-26 01:28:10 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2025-11-26 01:28:10 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-11-26 01:28:10 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2025-11-26 01:28:10 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_stone_bricks": {
+    "criteria": {
+      "has_stone_bricks": "2025-11-26 01:28:10 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-11-26 01:28:10 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_tag": "2025-11-26 01:28:10 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-11-26 01:28:10 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-11-26 01:28:10 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2025-11-26 01:33:05 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2025-11-26 01:33:05 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2025-11-26 01:33:05 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2025-11-26 01:55:23 +0700"
+    },
+    "done": true
+  },
+  "endrem:main/cryptic_eye": {
+    "criteria": {
+      "cryptic_eye": "2025-11-26 01:47:57 +0700"
+    },
+    "done": true
+  },
+  "endrem:main/root": {
+    "criteria": {
+      "cryptic_eye": "2025-11-26 01:47:57 +0700"
     },
     "done": true
   },

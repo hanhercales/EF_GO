@@ -1983,6 +1983,7 @@
       "minecraft:old_growth_birch_forest": "2025-11-23 16:47:15 +0700",
       "minecraft:deep_dark": "2025-11-24 15:02:28 +0700",
       "minecraft:meadow": "2025-11-21 00:38:46 +0700",
+      "minecraft:windswept_gravelly_hills": "2025-11-26 00:21:14 +0700",
       "minecraft:savanna": "2025-11-23 17:02:53 +0700",
       "minecraft:plains": "2025-11-20 23:32:12 +0700"
     },
@@ -6857,6 +6858,30 @@
   "minecraft:recipes/misc/raw_gold": {
     "criteria": {
       "has_raw_gold_block": "2025-11-25 21:56:04 +0700"
+    },
+    "done": true
+  },
+  "blades_of_the_fallen:bandit_defeat": {
+    "criteria": {
+      "bandit_defeat_0": "2025-11-26 01:30:24 +0700"
+    },
+    "done": true
+  },
+  "slu:pantheon_hunter": {
+    "criteria": {
+      "pantheon_hunter_0": "2025-11-26 00:34:33 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2025-11-26 01:22:03 +0700"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:adventure/night_lich_defeat": {
+    "criteria": {
+      "bosses_of_mass_destruction:lich": "2025-11-26 01:28:57 +0700"
     },
     "done": true
   },

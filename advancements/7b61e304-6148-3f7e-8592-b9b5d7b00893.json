@@ -1843,6 +1843,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:deep_ocean": "2025-11-26 00:34:08 +0700",
       "minecraft:frozen_river": "2025-11-25 01:33:07 +0700",
       "minecraft:beach": "2025-11-15 23:28:16 +0700",
       "minecraft:river": "2025-11-15 23:31:40 +0700",
@@ -1852,6 +1853,8 @@
       "minecraft:forest": "2025-11-15 23:04:26 +0700",
       "minecraft:frozen_ocean": "2025-11-25 01:35:44 +0700",
       "minecraft:deep_frozen_ocean": "2025-11-25 01:35:58 +0700",
+      "minecraft:ocean": "2025-11-26 00:31:47 +0700",
+      "minecraft:flower_forest": "2025-11-26 00:27:17 +0700",
       "minecraft:meadow": "2025-11-16 00:46:41 +0700",
       "minecraft:plains": "2025-11-15 23:37:51 +0700"
     },
@@ -2403,10 +2406,12 @@
       "sweet_berries": "2025-11-16 01:20:09 +0700",
       "cooked_beef": "2025-11-15 23:45:47 +0700",
       "baked_potato": "2025-11-16 00:46:30 +0700",
+      "cooked_cod": "2025-11-26 00:54:53 +0700",
       "pumpkin_pie": "2025-11-16 00:34:25 +0700",
       "golden_apple": "2025-11-16 01:35:37 +0700",
       "bread": "2025-11-25 00:31:57 +0700",
       "cookie": "2025-11-16 00:45:51 +0700",
+      "rotten_flesh": "2025-11-26 00:44:16 +0700",
       "golden_carrot": "2025-11-15 23:26:45 +0700",
       "cooked_rabbit": "2025-11-16 00:57:08 +0700",
       "cooked_chicken": "2025-11-16 00:34:22 +0700",
@@ -4409,21 +4414,51 @@
     },
     "done": true
   },
-  "slu:wukong_hunter": {
-    "criteria": {
-      "wukong_hunter_0": "2025-11-25 01:38:32 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_lapis_lazuli": "2025-11-25 00:30:59 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/redstone_torch": {
+  "minecraft:recipes/misc/blue_dye": {
     "criteria": {
-      "has_redstone": "2025-11-25 01:27:33 +0700"
+      "has_lapis_lazuli": "2025-11-25 00:30:59 +0700"
+    },
+    "done": true
+  },
+  "blades_of_the_fallen:tier_1_weapon_collector": {
+    "criteria": {
+      "tier_1_weapon_collector_1": "2025-11-25 00:34:39 +0700"
+    },
+    "done": false
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2025-11-25 00:40:06 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2025-11-25 00:40:06 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/music_disc_5": {
+    "criteria": {
+      "has_disc_fragment_5": "2025-11-25 00:49:05 +0700"
+    },
+    "done": true
+  },
+  "slu:jax_hunter": {
+    "criteria": {
+      "jax_hunter_0": "2025-11-25 01:06:01 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2025-11-25 01:24:47 +0700"
     },
     "done": true
   },
@@ -4433,27 +4468,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/golden_carrot": {
-    "criteria": {
-      "has_gold_nugget": "2025-11-25 00:40:06 +0700"
-    },
-    "done": true
-  },
-  "alexscaves:alexscaves/root": {
-    "criteria": {
-      "underground_cabin": "2025-11-25 01:36:25 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2025-11-25 01:24:54 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stripped_dark_oak_wood": {
-    "criteria": {
-      "has_log": "2025-11-25 01:24:55 +0700"
     },
     "done": true
   },
@@ -4463,45 +4480,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/target": {
-    "criteria": {
-      "has_redstone": "2025-11-25 01:27:33 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dark_oak_stairs": {
-    "criteria": {
-      "has_planks": "2025-11-25 01:26:19 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_granite_slab_from_polished_granite_stonecutting": {
-    "criteria": {
-      "has_polished_granite": "2025-11-25 01:24:55 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/granite_slab": {
     "criteria": {
       "has_granite": "2025-11-25 01:24:54 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_granite_slab": {
-    "criteria": {
-      "has_polished_granite": "2025-11-25 01:24:55 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/compass": {
-    "criteria": {
-      "has_redstone": "2025-11-25 01:27:33 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dark_oak_door": {
-    "criteria": {
-      "has_planks": "2025-11-25 01:26:19 +0700"
     },
     "done": true
   },
@@ -4517,18 +4498,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_granite_stairs_from_polished_granite_stonecutting": {
-    "criteria": {
-      "has_polished_granite": "2025-11-25 01:24:55 +0700"
-    },
-    "done": true
-  },
-  "slu:jax_hunter": {
-    "criteria": {
-      "jax_hunter_0": "2025-11-25 01:06:01 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/granite_wall": {
     "criteria": {
       "has_granite": "2025-11-25 01:24:54 +0700"
@@ -4541,9 +4510,39 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/redstone_block": {
+  "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
     "criteria": {
-      "has_redstone": "2025-11-25 01:27:33 +0700"
+      "has_granite": "2025-11-25 01:24:54 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite": {
+    "criteria": {
+      "has_granite": "2025-11-25 01:24:54 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_dark_oak_wood": {
+    "criteria": {
+      "has_log": "2025-11-25 01:24:55 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_slab_from_polished_granite_stonecutting": {
+    "criteria": {
+      "has_polished_granite": "2025-11-25 01:24:55 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_slab": {
+    "criteria": {
+      "has_polished_granite": "2025-11-25 01:24:55 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs_from_polished_granite_stonecutting": {
+    "criteria": {
+      "has_polished_granite": "2025-11-25 01:24:55 +0700"
     },
     "done": true
   },
@@ -4553,15 +4552,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/dark_oak_sign": {
+  "minecraft:recipes/building_blocks/polished_granite_stairs": {
+    "criteria": {
+      "has_polished_granite": "2025-11-25 01:24:55 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2025-11-25 01:24:55 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_stairs": {
     "criteria": {
       "has_planks": "2025-11-25 01:26:19 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
+  "minecraft:recipes/redstone/dark_oak_door": {
     "criteria": {
-      "has_granite": "2025-11-25 01:24:54 +0700"
+      "has_planks": "2025-11-25 01:26:19 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2025-11-25 01:26:19 +0700"
     },
     "done": true
   },
@@ -4571,57 +4588,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/blue_dye": {
-    "criteria": {
-      "has_lapis_lazuli": "2025-11-25 00:30:59 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/dark_oak_trapdoor": {
     "criteria": {
       "has_planks": "2025-11-25 01:26:19 +0700"
     },
     "done": true
   },
-  "blades_of_the_fallen:tier_1_weapon_collector": {
-    "criteria": {
-      "tier_1_weapon_collector_1": "2025-11-25 00:34:39 +0700"
-    },
-    "done": false
-  },
-  "minecraft:recipes/tools/clock": {
-    "criteria": {
-      "has_redstone": "2025-11-25 01:27:33 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
-    "criteria": {
-      "has_gold_nugget": "2025-11-25 00:40:06 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/dark_oak_button": {
     "criteria": {
       "has_planks": "2025-11-25 01:26:19 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/music_disc_5": {
-    "criteria": {
-      "has_disc_fragment_5": "2025-11-25 00:49:05 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/note_block": {
-    "criteria": {
-      "has_redstone": "2025-11-25 01:27:33 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
-    "criteria": {
-      "has_moss_block": "2025-11-25 01:26:46 +0700"
     },
     "done": true
   },
@@ -4637,39 +4612,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_granite_stairs": {
-    "criteria": {
-      "has_polished_granite": "2025-11-25 01:24:55 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dark_oak_slab": {
     "criteria": {
       "has_planks": "2025-11-25 01:26:19 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dark_oak_planks": {
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
     "criteria": {
-      "has_log": "2025-11-25 01:24:55 +0700"
-    },
-    "done": true
-  },
-  "alexscaves:alexscaves/cave_book": {
-    "criteria": {
-      "cave_book": "2025-11-25 01:36:45 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dropper": {
-    "criteria": {
-      "has_redstone": "2025-11-25 01:27:33 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_granite": {
-    "criteria": {
-      "has_granite": "2025-11-25 01:24:54 +0700"
+      "has_moss_block": "2025-11-25 01:26:46 +0700"
     },
     "done": true
   },
@@ -4691,15 +4642,147 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/mojang_banner_pattern": {
+  "minecraft:recipes/redstone/redstone_torch": {
     "criteria": {
-      "has_enchanted_golden_apple": "2025-11-25 01:24:47 +0700"
+      "has_redstone": "2025-11-25 01:27:33 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2025-11-25 01:27:33 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2025-11-25 01:27:33 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2025-11-25 01:27:33 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2025-11-25 01:27:33 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2025-11-25 01:27:33 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2025-11-25 01:27:33 +0700"
     },
     "done": true
   },
   "minecraft:recipes/redstone/piston": {
     "criteria": {
       "has_redstone": "2025-11-25 01:27:33 +0700"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/root": {
+    "criteria": {
+      "underground_cabin": "2025-11-25 01:36:25 +0700"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/cave_book": {
+    "criteria": {
+      "cave_book": "2025-11-25 01:36:45 +0700"
+    },
+    "done": true
+  },
+  "slu:wukong_hunter": {
+    "criteria": {
+      "wukong_hunter_0": "2025-11-25 01:38:32 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2025-11-26 00:47:30 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2025-11-26 01:27:34 +0700"
+    },
+    "done": true
+  },
+  "graveyard:graveyard/kill_horde": {
+    "criteria": {
+      "kill_horde": "2025-11-26 01:29:39 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_planks": {
+    "criteria": {
+      "has_log": "2025-11-26 01:30:29 +0700"
+    },
+    "done": true
+  },
+  "traveloptics:trident_of_the_eternal_maelstrom": {
+    "criteria": {
+      "get_eternal_trident": "2025-11-26 01:02:22 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2025-11-26 00:47:30 +0700"
+    },
+    "done": true
+  },
+  "slu:pantheon_hunter": {
+    "criteria": {
+      "pantheon_hunter_0": "2025-11-26 00:34:33 +0700"
+    },
+    "done": true
+  },
+  "graveyard:graveyard/kill_graveyard_mob": {
+    "criteria": {
+      "revenant": "2025-11-26 01:29:39 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2025-11-26 00:47:30 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_wood": {
+    "criteria": {
+      "has_log": "2025-11-26 01:30:29 +0700"
+    },
+    "done": true
+  },
+  "lootr:100loot": {
+    "criteria": {
+      "loot_stat": "2025-11-26 00:37:21 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:root": {
+    "criteria": {
+      "in_tf": "2025-11-26 01:23:56 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2025-11-26 01:27:34 +0700"
     },
     "done": true
   },
