@@ -2,9 +2,7 @@
 	id: "e2fef7cc-bdee-4e81-8596-799410b6f5eb"
 	type: "player"
 	player_name: "PhiaKun"
-	ranks: {
-		e2fef7cc-bdee-4e81-8596-799410b6f5eb: "owner"
-	}
+	ranks: { }
 	properties: {
 		"ftbteams:display_name": "PhiaKun"
 		"ftbteams:description": ""

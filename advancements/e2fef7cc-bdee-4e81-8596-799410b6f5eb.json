@@ -3463,33 +3463,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/deepslate_brick_wall_from_deepslate_bricks_stonecutting": {
+  "minecraft:adventure/avoid_vibration": {
     "criteria": {
-      "has_deepslate_bricks": "2025-11-24 16:46:30 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_bricks_stonecutting": {
-    "criteria": {
-      "has_deepslate_bricks": "2025-11-24 16:46:30 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/soul_lantern": {
-    "criteria": {
-      "has_soul_torch": "2025-11-24 16:16:20 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/deepslate_brick_stairs": {
-    "criteria": {
-      "has_deepslate_bricks": "2025-11-24 16:46:30 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/spyglass": {
-    "criteria": {
-      "has_amethyst_shard": "2025-11-24 15:41:11 +0700"
+      "avoid_vibration": "2025-11-24 15:14:55 +0700"
     },
     "done": true
   },
@@ -3499,27 +3475,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_bricks_stonecutting": {
+  "alexscaves:alexscaves/cave_tablet": {
     "criteria": {
-      "has_deepslate_bricks": "2025-11-24 16:46:30 +0700"
+      "cave_tablet": "2025-11-24 15:20:40 +0700"
     },
     "done": true
   },
-  "traveloptics:trident_of_the_eternal_maelstrom": {
+  "minecraft:recipes/misc/raw_iron": {
     "criteria": {
-      "get_eternal_trident": "2025-11-24 15:57:46 +0700"
+      "has_raw_iron_block": "2025-11-24 15:40:57 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-11-24 15:41:11 +0700"
     },
     "done": true
   },
   "bosses_of_mass_destruction:recipes/void_lily": {
     "criteria": {
       "has_amethyst_shard": "2025-11-24 15:41:11 +0700"
-    },
-    "done": true
-  },
-  "globalxp:recipes/misc/xp_block": {
-    "criteria": {
-      "has_emerald": "2025-11-24 15:41:12 +0700"
     },
     "done": true
   },
@@ -3535,45 +3511,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/deepslate_brick_wall": {
+  "minecraft:recipes/building_blocks/amethyst_block": {
     "criteria": {
-      "has_deepslate_bricks": "2025-11-24 16:46:30 +0700"
+      "has_amethyst_shard": "2025-11-24 15:41:11 +0700"
     },
     "done": true
   },
-  "lootr:25loot": {
+  "globalxp:recipes/misc/xp_block": {
     "criteria": {
-      "loot_stat": "2025-11-24 15:48:35 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/ward_armor_trim_smithing_template_smithing_trim": {
-    "criteria": {
-      "has_smithing_trim_template": "2025-11-24 16:35:19 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cracked_deepslate_bricks": {
-    "criteria": {
-      "has_deepslate_bricks": "2025-11-24 16:46:30 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/ward_armor_trim_smithing_template": {
-    "criteria": {
-      "has_ward_armor_trim_smithing_template": "2025-11-24 16:35:19 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_deepslate_bricks_stonecutting": {
-    "criteria": {
-      "has_deepslate_bricks": "2025-11-24 16:46:30 +0700"
-    },
-    "done": true
-  },
-  "irons_spellbooks:irons_spellbooks/ink_root": {
-    "criteria": {
-      "requirement": "2025-11-24 16:04:03 +0700"
+      "has_emerald": "2025-11-24 15:41:12 +0700"
     },
     "done": true
   },
@@ -3583,15 +3529,105 @@
     },
     "done": true
   },
+  "lootr:25loot": {
+    "criteria": {
+      "loot_stat": "2025-11-24 15:48:35 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/recovery_compass": {
+    "criteria": {
+      "has_echo_shard": "2025-11-24 15:57:22 +0700"
+    },
+    "done": true
+  },
+  "traveloptics:trident_of_the_eternal_maelstrom": {
+    "criteria": {
+      "get_eternal_trident": "2025-11-24 15:57:46 +0700"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/steal_from_wizard": {
+    "criteria": {
+      "anger_wizard": "2025-11-24 16:03:57 +0700"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/ink_root": {
+    "criteria": {
+      "requirement": "2025-11-24 16:04:03 +0700"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/ink_legendary": {
+    "criteria": {
+      "requirement": "2025-11-24 16:04:03 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/music_disc_5": {
     "criteria": {
       "has_disc_fragment_5": "2025-11-24 16:04:23 +0700"
     },
     "done": true
   },
-  "alexscaves:alexscaves/cave_tablet": {
+  "minecraft:recipes/decorations/soul_lantern": {
     "criteria": {
-      "cave_tablet": "2025-11-24 15:20:40 +0700"
+      "has_soul_torch": "2025-11-24 16:16:20 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ward_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-11-24 16:35:19 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ward_armor_trim_smithing_template": {
+    "criteria": {
+      "has_ward_armor_trim_smithing_template": "2025-11-24 16:35:19 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-11-24 16:46:30 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-11-24 16:46:30 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-11-24 16:46:30 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-11-24 16:46:30 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-11-24 16:46:30 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_deepslate_bricks": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-11-24 16:46:30 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-11-24 16:46:30 +0700"
     },
     "done": true
   },
@@ -3607,33 +3643,9 @@
     },
     "done": true
   },
-  "irons_spellbooks:irons_spellbooks/ink_legendary": {
-    "criteria": {
-      "requirement": "2025-11-24 16:04:03 +0700"
-    },
-    "done": true
-  },
-  "irons_spellbooks:irons_spellbooks/steal_from_wizard": {
-    "criteria": {
-      "anger_wizard": "2025-11-24 16:03:57 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/recovery_compass": {
-    "criteria": {
-      "has_echo_shard": "2025-11-24 15:57:22 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/deepslate_tiles_from_deepslate_bricks_stonecutting": {
     "criteria": {
       "has_deepslate_bricks": "2025-11-24 16:46:30 +0700"
-    },
-    "done": true
-  },
-  "minecraft:adventure/avoid_vibration": {
-    "criteria": {
-      "avoid_vibration": "2025-11-24 15:14:55 +0700"
     },
     "done": true
   },
@@ -3643,21 +3655,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/amethyst_block": {
-    "criteria": {
-      "has_amethyst_shard": "2025-11-24 15:41:11 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/raw_iron": {
-    "criteria": {
-      "has_raw_iron_block": "2025-11-24 15:40:57 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_bricks_stonecutting": {
     "criteria": {
       "has_deepslate_bricks": "2025-11-24 16:46:30 +0700"
+    },
+    "done": true
+  },
+  "slu:wukong_hunter": {
+    "criteria": {
+      "wukong_hunter_0": "2025-11-25 01:38:32 +0700"
+    },
+    "done": true
+  },
+  "traveloptics:abyssal_tidecaller_mastery": {
+    "criteria": {
+      "max_tidecaller": "2025-11-25 01:29:28 +0700"
     },
     "done": true
   },

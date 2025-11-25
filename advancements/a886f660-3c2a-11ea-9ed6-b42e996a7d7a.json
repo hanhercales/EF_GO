@@ -6443,6 +6443,60 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2025-11-24 00:40:00 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:root": {
+    "criteria": {
+      "make_portal": "2025-11-24 00:49:41 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:twilight_hunter": {
+    "criteria": {
+      "bighorn_sheep": "2025-11-24 00:50:10 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_bed": {
+    "criteria": {
+      "has_light_blue_wool": "2025-11-24 00:50:12 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_carpet": {
+    "criteria": {
+      "has_light_blue_wool": "2025-11-24 00:50:12 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_banner": {
+    "criteria": {
+      "has_light_blue_wool": "2025-11-24 00:50:12 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_bed": {
+    "criteria": {
+      "has_blue_wool": "2025-11-24 00:51:00 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_banner": {
+    "criteria": {
+      "has_blue_wool": "2025-11-24 00:51:00 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_carpet": {
+    "criteria": {
+      "has_blue_wool": "2025-11-24 00:51:00 +0700"
+    },
+    "done": true
+  },
   "minecraft:husbandry/fishy_business": {
     "criteria": {
       "cod": "2025-11-24 00:59:54 +0700"
@@ -6455,105 +6509,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/end_crystal": {
-    "criteria": {
-      "has_ender_eye": "2025-11-24 01:11:18 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_blue_bed": {
-    "criteria": {
-      "has_light_blue_wool": "2025-11-24 00:50:12 +0700"
-    },
-    "done": true
-  },
-  "traveloptics:scourge_of_the_sands": {
-    "criteria": {
-      "get_scourge": "2025-11-24 02:04:20 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
-    "criteria": {
-      "has_cut_sandstone": "2025-11-24 02:26:00 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/popped_chorus_fruit": {
-    "criteria": {
-      "has_chorus_fruit": "2025-11-24 00:40:00 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sandstone_stairs": {
-    "criteria": {
-      "has_cut_sandstone": "2025-11-24 02:26:00 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/dried_kelp_from_smoking": {
-    "criteria": {
-      "has_kelp": "2025-11-24 02:24:23 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/blue_bed": {
-    "criteria": {
-      "has_blue_wool": "2025-11-24 00:51:00 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_blue_carpet": {
-    "criteria": {
-      "has_light_blue_wool": "2025-11-24 00:50:12 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/blue_banner": {
-    "criteria": {
-      "has_blue_wool": "2025-11-24 00:51:00 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/ender_chest": {
-    "criteria": {
-      "has_ender_eye": "2025-11-24 01:11:18 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/dried_kelp_from_smelting": {
-    "criteria": {
-      "has_kelp": "2025-11-24 02:24:23 +0700"
-    },
-    "done": true
-  },
-  "twilightforest:twilight_hunter": {
-    "criteria": {
-      "bighorn_sheep": "2025-11-24 00:50:10 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
-    "criteria": {
-      "has_kelp": "2025-11-24 02:24:23 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/prismarine_bricks": {
     "criteria": {
       "has_prismarine_shard": "2025-11-24 01:05:00 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_blue_banner": {
-    "criteria": {
-      "has_light_blue_wool": "2025-11-24 00:50:12 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cut_sandstone_slab": {
-    "criteria": {
-      "has_cut_sandstone": "2025-11-24 02:26:00 +0700"
     },
     "done": true
   },
@@ -6563,21 +6521,81 @@
     },
     "done": true
   },
+  "born_in_chaos_v1:horrorofthe_depths": {
+    "criteria": {
+      "horrorofthe_depths_0": "2025-11-24 01:06:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2025-11-24 01:11:18 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2025-11-24 01:11:18 +0700"
+    },
+    "done": true
+  },
+  "endrem:main/eyes_recipe": {
+    "criteria": {
+      "eyes": "2025-11-24 01:11:18 +0700"
+    },
+    "done": true
+  },
   "cataclysm:kill_all_bosses": {
     "criteria": {
       "cataclysm:ancient_remnant": "2025-11-24 02:04:18 +0700"
     },
     "done": false
   },
-  "minecraft:recipes/decorations/decorated_pot_simple": {
-    "criteria": {
-      "has_brick": "2025-11-24 02:34:20 +0700"
-    },
-    "done": true
-  },
   "cataclysm:kill_remnant": {
     "criteria": {
       "ignis": "2025-11-24 02:04:18 +0700"
+    },
+    "done": true
+  },
+  "traveloptics:scourge_of_the_sands": {
+    "criteria": {
+      "get_scourge": "2025-11-24 02:04:20 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2025-11-24 02:24:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2025-11-24 02:24:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2025-11-24 02:24:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
+    "criteria": {
+      "has_cut_sandstone": "2025-11-24 02:26:00 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_cut_sandstone": "2025-11-24 02:26:00 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab": {
+    "criteria": {
+      "has_cut_sandstone": "2025-11-24 02:26:00 +0700"
     },
     "done": true
   },
@@ -6588,9 +6606,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blue_carpet": {
+  "minecraft:recipes/decorations/decorated_pot_simple": {
     "criteria": {
-      "has_blue_wool": "2025-11-24 00:51:00 +0700"
+      "has_brick": "2025-11-24 02:34:20 +0700"
     },
     "done": true
   },
@@ -6600,21 +6618,93 @@
     },
     "done": true
   },
-  "born_in_chaos_v1:horrorofthe_depths": {
+  "minecraft:recipes/decorations/brown_banner": {
     "criteria": {
-      "horrorofthe_depths_0": "2025-11-24 01:06:23 +0700"
+      "has_brown_wool": "2025-11-25 01:55:10 +0700"
     },
     "done": true
   },
-  "twilightforest:root": {
+  "minecraft:recipes/decorations/brown_bed": {
     "criteria": {
-      "make_portal": "2025-11-24 00:49:41 +0700"
+      "has_brown_wool": "2025-11-25 01:55:10 +0700"
     },
     "done": true
   },
-  "endrem:main/eyes_recipe": {
+  "slu:wukong_hunter": {
     "criteria": {
-      "eyes": "2025-11-24 01:11:18 +0700"
+      "wukong_hunter_0": "2025-11-25 01:38:32 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_rose_bush": "2025-11-25 01:42:22 +0700"
+    },
+    "done": true
+  },
+  "endrem:main/wither_eye": {
+    "criteria": {
+      "wither_eye": "2025-11-25 00:33:36 +0700"
+    },
+    "done": true
+  },
+  "slu:jax_hunter": {
+    "criteria": {
+      "jax_hunter_0": "2025-11-25 01:06:01 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_the_recipe": "2025-11-25 00:23:25 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2025-11-25 00:16:03 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_carpet": {
+    "criteria": {
+      "has_brown_wool": "2025-11-25 01:55:10 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/music_disc_5": {
+    "criteria": {
+      "has_disc_fragment_5": "2025-11-25 00:52:50 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2025-11-25 00:16:03 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2025-11-25 00:16:03 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/recovery_compass": {
+    "criteria": {
+      "has_echo_shard": "2025-11-25 00:47:40 +0700"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/pearl": {
+    "criteria": {
+      "pearl": "2025-11-25 01:48:01 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2025-11-25 01:44:02 +0700"
     },
     "done": true
   },
