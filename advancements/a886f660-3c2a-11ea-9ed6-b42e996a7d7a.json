@@ -1964,6 +1964,7 @@
       "minecraft:snowy_plains": "2025-11-15 22:59:30 +0700",
       "minecraft:stony_shore": "2025-11-22 01:57:47 +0700",
       "minecraft:snowy_taiga": "2025-11-15 23:01:30 +0700",
+      "minecraft:dripstone_caves": "2025-11-27 22:07:00 +0700",
       "minecraft:grove": "2025-11-26 00:58:39 +0700",
       "minecraft:cold_ocean": "2025-11-15 23:29:44 +0700",
       "minecraft:forest": "2025-11-15 22:58:40 +0700",
@@ -1979,6 +1980,7 @@
       "minecraft:flower_forest": "2025-11-26 00:22:21 +0700",
       "minecraft:old_growth_birch_forest": "2025-11-21 01:44:00 +0700",
       "minecraft:meadow": "2025-11-16 00:07:19 +0700",
+      "minecraft:savanna": "2025-11-27 21:23:32 +0700",
       "minecraft:plains": "2025-11-15 23:36:17 +0700"
     },
     "done": false
@@ -2168,6 +2170,7 @@
       "dune_beach": "2025-11-20 22:29:38 +0700",
       "seasonal_forest": "2025-11-15 23:31:38 +0700",
       "pasture": "2025-11-20 22:32:30 +0700",
+      "rocky_rainforest": "2025-11-27 23:40:07 +0700",
       "lavender_field": "2025-11-22 11:24:11 +0700",
       "fir_clearing": "2025-11-26 01:00:51 +0700",
       "pumpkin_patch": "2025-11-15 23:32:41 +0700",
@@ -2176,6 +2179,7 @@
       "snowy_coniferous_forest": "2025-11-21 00:58:54 +0700",
       "snowy_fir_clearing": "2025-11-22 01:42:51 +0700",
       "gravel_beach": "2025-11-15 23:32:25 +0700",
+      "glowing_grotto": "2025-11-27 23:39:08 +0700",
       "rainforest": "2025-11-24 02:14:25 +0700",
       "crag": "2025-11-26 00:59:45 +0700",
       "snowy_maple_woods": "2025-11-26 00:57:58 +0700"
@@ -6714,13 +6718,73 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/roasted_mutton_chops": {
+    "criteria": {
+      "has_mutton": "2025-11-26 00:23:56 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/shepherds_pie_block": {
+    "criteria": {
+      "has_cooked_mutton": "2025-11-26 00:23:56 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/mutton_wrap": {
+    "criteria": {
+      "has_mutton": "2025-11-26 00:23:56 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_pink_tulip": {
+    "criteria": {
+      "has_pink_tulip": "2025-11-26 00:25:33 +0700"
+    },
+    "done": true
+  },
+  "slu:pantheon_hunter": {
+    "criteria": {
+      "pantheon_hunter_0": "2025-11-26 00:34:33 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/magma_cream": {
     "criteria": {
       "has_blaze_powder": "2025-11-26 00:35:56 +0700"
     },
     "done": true
   },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2025-11-26 00:35:56 +0700"
+    },
+    "done": true
+  },
+  "blades_of_the_fallen:kill_any_boss": {
+    "criteria": {
+      "kill_any_boss_0": "2025-11-26 01:10:10 +0700"
+    },
+    "done": true
+  },
+  "blades_of_the_fallen:kitsune_defeat": {
+    "criteria": {
+      "kitsune_defeat_0": "2025-11-26 01:10:10 +0700"
+    },
+    "done": true
+  },
+  "blades_of_the_fallen:reforge_cursed_katana": {
+    "criteria": {
+      "reforge_cursed_katana_0": "2025-11-26 01:18:52 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2025-11-26 01:27:26 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
     "criteria": {
       "has_snowball": "2025-11-26 01:27:26 +0700"
     },
@@ -6732,45 +6796,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/fire_charge": {
-    "criteria": {
-      "has_blaze_powder": "2025-11-26 00:35:56 +0700"
-    },
-    "done": true
-  },
-  "minecraft:nether/netherite_armor": {
-    "criteria": {
-      "netherite_armor": "2025-11-26 01:34:31 +0700"
-    },
-    "done": true
-  },
   "bosses_of_mass_destruction:recipes/levitation_block": {
     "criteria": {
       "has_ancient_anima": "2025-11-26 01:29:24 +0700"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/roasted_mutton_chops": {
-    "criteria": {
-      "has_mutton": "2025-11-26 00:23:56 +0700"
-    },
-    "done": true
-  },
-  "slu:pantheon_hunter": {
-    "criteria": {
-      "pantheon_hunter_0": "2025-11-26 00:34:33 +0700"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/shepherds_pie_block": {
-    "criteria": {
-      "has_cooked_mutton": "2025-11-26 00:23:56 +0700"
-    },
-    "done": true
-  },
-  "alexscaves:alexscaves/defeat_big_dinosaur": {
-    "criteria": {
-      "killed_grottoceratops": "2025-11-26 01:39:02 +0700"
     },
     "done": true
   },
@@ -6780,27 +6808,9 @@
     },
     "done": true
   },
-  "alexscaves:alexscaves/discover_dinosaur": {
+  "minecraft:nether/netherite_armor": {
     "criteria": {
-      "killed_by_grottoceratops": "2025-11-26 01:38:57 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/pink_dye_from_pink_tulip": {
-    "criteria": {
-      "has_pink_tulip": "2025-11-26 00:25:33 +0700"
-    },
-    "done": true
-  },
-  "blades_of_the_fallen:reforge_cursed_katana": {
-    "criteria": {
-      "reforge_cursed_katana_0": "2025-11-26 01:18:52 +0700"
-    },
-    "done": true
-  },
-  "blades_of_the_fallen:kill_any_boss": {
-    "criteria": {
-      "kill_any_boss_0": "2025-11-26 01:10:10 +0700"
+      "netherite_armor": "2025-11-26 01:34:31 +0700"
     },
     "done": true
   },
@@ -6810,33 +6820,153 @@
     },
     "done": true
   },
-  "alexscaves:alexscaves/cooked_dinosaur_chop": {
-    "criteria": {
-      "cooked_dinosaur_chop": "2025-11-26 01:39:03 +0700"
-    },
-    "done": true
-  },
   "alexscaves:alexscaves/limestone": {
     "criteria": {
       "limestone": "2025-11-26 01:38:32 +0700"
     },
     "done": true
   },
-  "farmersdelight:recipes/food/mutton_wrap": {
+  "alexscaves:alexscaves/discover_dinosaur": {
     "criteria": {
-      "has_mutton": "2025-11-26 00:23:56 +0700"
+      "killed_by_grottoceratops": "2025-11-26 01:38:57 +0700"
     },
     "done": true
   },
-  "blades_of_the_fallen:kitsune_defeat": {
+  "alexscaves:alexscaves/defeat_big_dinosaur": {
     "criteria": {
-      "kitsune_defeat_0": "2025-11-26 01:10:10 +0700"
+      "killed_grottoceratops": "2025-11-26 01:39:02 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/snow_block": {
+  "alexscaves:alexscaves/cooked_dinosaur_chop": {
     "criteria": {
-      "has_snowball": "2025-11-26 01:27:26 +0700"
+      "cooked_dinosaur_chop": "2025-11-26 01:39:03 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:progress_naga": {
+    "criteria": {
+      "was_in_fight": "2025-11-27 20:17:48 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:progress_lich": {
+    "criteria": {
+      "kill_naga": "2025-11-27 20:17:49 +0700"
+    },
+    "done": false
+  },
+  "twilightforest:recipes/building_blocks/nagastone/smelted_cracked_nagastone_pillar": {
+    "criteria": {
+      "has_item": "2025-11-27 20:18:03 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/nagastone/mossy_nagastone_pillar": {
+    "criteria": {
+      "has_item": "2025-11-27 20:18:03 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/nagastone/nagastone_spiral": {
+    "criteria": {
+      "has_item": "2025-11-27 20:18:03 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/naga_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2025-11-27 20:18:37 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/firefly_jar": {
+    "criteria": {
+      "has_item": "2025-11-27 20:18:46 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/magic_map_focus": {
+    "criteria": {
+      "has_feather": "2025-11-27 20:22:49 +0700"
+    },
+    "done": true
+  },
+  "monsterexpansion:hunt_large_monster": {
+    "criteria": {
+      "killed_skrythe": "2025-11-27 21:07:23 +0700"
+    },
+    "done": false
+  },
+  "monsterexpansion:hunt_skrythe": {
+    "criteria": {
+      "killed_large_monster": "2025-11-27 21:07:23 +0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:the_wind_darkening": {
+    "criteria": {
+      "the_wind_darkening_0": "2025-11-27 21:08:30 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye_from_smelting": {
+    "criteria": {
+      "has_sea_pickle": "2025-11-27 21:14:23 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/berry_torch": {
+    "criteria": {
+      "has_item": "2025-11-27 21:15:49 +0700"
+    },
+    "done": true
+  },
+  "slu:darius_hunter": {
+    "criteria": {
+      "darius_hunter_0": "2025-11-27 21:37:58 +0700"
+    },
+    "done": true
+  },
+  "slu:aatrox_hunter": {
+    "criteria": {
+      "aatrox_hunter_0": "2025-11-27 21:51:13 +0700"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/netherite_backpack": {
+    "criteria": {
+      "has_diamond_backpack": "2025-11-27 22:12:12 +0700"
+    },
+    "done": true
+  },
+  "traveloptics:the_obliterator_mastery": {
+    "criteria": {
+      "max_obliterator": "2025-11-27 22:15:18 +0700"
+    },
+    "done": true
+  },
+  "traveloptics:cursed_wraithblade": {
+    "criteria": {
+      "get_wraithblade": "2025-11-27 23:04:05 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/turtle_helmet": {
+    "criteria": {
+      "has_scute": "2025-11-27 23:29:54 +0700"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/staff_blood_staff": {
+    "criteria": {
+      "requirement": "2025-11-27 23:42:03 +0700"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/staff_ice": {
+    "criteria": {
+      "requirement": "2025-11-27 23:54:38 +0700"
     },
     "done": true
   },
