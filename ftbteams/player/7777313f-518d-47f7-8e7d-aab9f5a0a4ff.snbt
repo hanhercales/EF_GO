@@ -6,7 +6,7 @@
 	properties: {
 		"ftbteams:display_name": "uwuAri_"
 		"ftbteams:description": ""
-		"ftbteams:color": "#FF7659"
+		"ftbteams:color": "#59BCFF"
 		"ftbteams:free_to_join": 0b
 		"ftbteams:max_msg_history_size": 1000
 		"ftbchunks:allow_explosions": 0b

@@ -1,0 +1,37 @@
+{
+	id: "abb3b340-b804-49d4-822d-2a03282a94c9"
+	type: "party"
+	owner: "a886f660-3c2a-11ea-9ed6-b42e996a7d7a"
+	ranks: {
+		7b61e304-6148-3f7e-8592-b9b5d7b00893: "member"
+		7777313f-518d-47f7-8e7d-aab9f5a0a4ff: "member"
+		a886f660-3c2a-11ea-9ed6-b42e996a7d7a: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "hanhercules's Party"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FFE4"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbchunks:allow_explosions": 0b
+		"ftbchunks:allow_mob_griefing": 0b
+		"ftbchunks:allow_fake_players": 0b
+		"ftbchunks:allow_named_fake_players": [ ]
+		"ftbchunks:allow_fake_players_by_id": 1b
+		"ftbchunks:allow_pvp": 1b
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbchunks:entity_interact_mode": "allies"
+		"ftbchunks:nonliving_entity_attack_mode": "allies"
+		"ftbchunks:claim_visibility": "public"
+		"ftbchunks:location_mode": "allies"
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1766598496206L, text: "{\"color\":\"yellow\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"hanhercules\"}]}" }
+		{ from: "a886f660-3c2a-11ea-9ed6-b42e996a7d7a", date: 1766598496220L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"changkhoyeuem\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1766598628868L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"changkhoyeuem\"}]}" }
+		{ from: "a886f660-3c2a-11ea-9ed6-b42e996a7d7a", date: 1766671063587L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"uwuAri_\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1766671065690L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"uwuAri_\"}]}" }
+	]
+	extra: { }
+}
