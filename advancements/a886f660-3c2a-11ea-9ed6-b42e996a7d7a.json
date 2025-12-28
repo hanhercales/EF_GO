@@ -2703,6 +2703,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:taiga": "2025-12-27 01:50:40 +0700",
+      "minecraft:deep_ocean": "2025-12-29 00:28:33 +0700",
       "minecraft:sunflower_plains": "2025-12-25 01:18:06 +0700",
       "minecraft:birch_forest": "2025-12-27 01:01:09 +0700",
       "minecraft:bamboo_jungle": "2025-12-28 01:35:11 +0700",
@@ -2717,6 +2718,7 @@
       "minecraft:old_growth_spruce_taiga": "2025-12-25 22:57:11 +0700",
       "minecraft:flower_forest": "2025-12-25 21:22:22 +0700",
       "minecraft:old_growth_birch_forest": "2025-12-25 00:45:13 +0700",
+      "minecraft:deep_dark": "2025-12-29 01:46:43 +0700",
       "minecraft:plains": "2025-12-25 00:54:49 +0700"
     },
     "done": false
@@ -3252,6 +3254,7 @@
       "minecraft:spider": "2025-12-25 01:23:42 +0700",
       "minecraft:creeper": "2025-12-26 10:38:33 +0700",
       "minecraft:slime": "2025-12-27 01:51:57 +0700",
+      "minecraft:phantom": "2025-12-29 01:26:07 +0700",
       "minecraft:zombified_piglin": "2025-12-25 23:24:32 +0700",
       "minecraft:wither_skeleton": "2025-12-26 12:20:58 +0700",
       "minecraft:piglin": "2025-12-28 00:41:14 +0700",
@@ -7123,6 +7126,7 @@
   },
   "silentgear:swords": {
     "criteria": {
+      "sword": "2025-12-29 02:24:37 +0700",
       "katana": "2025-12-27 01:43:05 +0700"
     },
     "done": false
@@ -8093,57 +8097,15 @@
     },
     "done": true
   },
-  "born_in_chaos_v1:charm_collector": {
+  "irons_spellbooks:irons_spellbooks/spell_book_blaze": {
     "criteria": {
-      "charm_collector_2": "2025-12-28 01:31:22 +0700"
-    },
-    "done": false
-  },
-  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
-    "criteria": {
-      "has_gold_block": "2025-12-28 01:35:56 +0700"
+      "requirement": "2025-12-28 00:27:55 +0700"
     },
     "done": true
   },
-  "alltheores:recipes/misc/steel_nugget_from_ingot": {
+  "irons_spellbooks:irons_spellbooks/spell_book_equip": {
     "criteria": {
-      "has_item": "2025-12-28 01:01:36 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
-    "criteria": {
-      "has_ancient_debris": "2025-12-28 00:49:06 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/crimson_planks": {
-    "criteria": {
-      "has_logs": "2025-12-28 00:48:24 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/bamboo_planks": {
-    "criteria": {
-      "has_logs": "2025-12-28 01:47:13 +0700"
-    },
-    "done": true
-  },
-  "alltheores:recipes/misc/iron_ingot_from_dust": {
-    "criteria": {
-      "has_item": "2025-12-28 00:57:47 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/spyglass": {
-    "criteria": {
-      "has_amethyst_shard": "2025-12-28 01:13:13 +0700"
-    },
-    "done": true
-  },
-  "minecraft:adventure/voluntary_exile": {
-    "criteria": {
-      "voluntary_exile": "2025-12-28 01:06:46 +0700"
+      "requirement": "2025-12-28 00:27:57 +0700"
     },
     "done": true
   },
@@ -8153,87 +8115,33 @@
     },
     "done": true
   },
+  "irons_spellbooks:irons_spellbooks/make_inscription_table": {
+    "criteria": {
+      "inscription_table": "2025-12-28 00:35:26 +0700"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/root": {
+    "criteria": {
+      "inscription_table": "2025-12-28 00:35:26 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_planks": {
+    "criteria": {
+      "has_logs": "2025-12-28 00:48:24 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_hyphae": {
+    "criteria": {
+      "has_log": "2025-12-28 00:48:24 +0700"
+    },
+    "done": true
+  },
   "alltheores:recipes/misc/raw_tin_block": {
     "criteria": {
       "has_raw_TagKey[minecraft:item / forge:raw_materials/tin]": "2025-12-28 00:48:41 +0700"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/leather_from_scraps": {
-    "criteria": {
-      "has_item": "2025-12-28 01:31:22 +0700"
-    },
-    "done": true
-  },
-  "minecraft:nether/obtain_ancient_debris": {
-    "criteria": {
-      "ancient_debris": "2025-12-28 00:49:06 +0700"
-    },
-    "done": true
-  },
-  "irons_spellbooks:irons_spellbooks/spell_book_blaze": {
-    "criteria": {
-      "requirement": "2025-12-28 00:27:55 +0700"
-    },
-    "done": true
-  },
-  "bosses_of_mass_destruction:recipes/void_lily": {
-    "criteria": {
-      "has_amethyst_shard": "2025-12-28 01:13:13 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/jungle_stairs": {
-    "criteria": {
-      "has_planks": "2025-12-28 01:06:07 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
-    "criteria": {
-      "has_amethyst_shard": "2025-12-28 01:13:13 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/tinted_glass": {
-    "criteria": {
-      "has_amethyst_shard": "2025-12-28 01:13:13 +0700"
-    },
-    "done": true
-  },
-  "lootr:50loot": {
-    "criteria": {
-      "loot_stat": "2025-12-28 01:13:54 +0700"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/leather_scrap": {
-    "criteria": {
-      "has_item": "2025-12-28 01:31:22 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/jungle_trapdoor": {
-    "criteria": {
-      "has_planks": "2025-12-28 01:06:07 +0700"
-    },
-    "done": true
-  },
-  "silentgems:recipes/misc/peridot_block": {
-    "criteria": {
-      "has_item": "2025-12-28 01:41:39 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/jungle_sign": {
-    "criteria": {
-      "has_planks": "2025-12-28 01:06:07 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/jungle_door": {
-    "criteria": {
-      "has_planks": "2025-12-28 01:06:07 +0700"
     },
     "done": true
   },
@@ -8243,15 +8151,69 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/jungle_fence": {
+  "alltheores:recipes/misc/tin_ingot_from_raw_blasting": {
     "criteria": {
-      "has_planks": "2025-12-28 01:06:07 +0700"
+      "has_item": "2025-12-28 00:48:41 +0700"
     },
     "done": true
   },
-  "alltheores:recipes/misc/peridot_block": {
+  "alltheores:recipes/misc/raw_tin_from_block": {
     "criteria": {
-      "has_TagKey[minecraft:item / forge:gems/peridot]_ingot": "2025-12-28 01:41:39 +0700"
+      "has_item": "2025-12-28 00:48:43 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2025-12-28 00:49:06 +0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2025-12-28 00:49:06 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2025-12-28 00:49:06 +0700"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/staff_artificer": {
+    "criteria": {
+      "requirement": "2025-12-28 00:51:19 +0700"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/staff_root": {
+    "criteria": {
+      "requirement": "2025-12-28 00:51:19 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/iron_ingot_from_dust": {
+    "criteria": {
+      "has_item": "2025-12-28 00:57:47 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/iron_ingot_from_dust_blasting": {
+    "criteria": {
+      "has_item": "2025-12-28 00:57:47 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/steel_ingot_from_dust": {
+    "criteria": {
+      "has_item": "2025-12-28 00:58:00 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/steel_ingot_from_dust_blasting": {
+    "criteria": {
+      "has_item": "2025-12-28 00:58:00 +0700"
     },
     "done": true
   },
@@ -8261,33 +8223,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/jungle_slab": {
-    "criteria": {
-      "has_planks": "2025-12-28 01:06:07 +0700"
-    },
-    "done": true
-  },
-  "irons_spellbooks:irons_spellbooks/make_inscription_table": {
-    "criteria": {
-      "inscription_table": "2025-12-28 00:35:26 +0700"
-    },
-    "done": true
-  },
-  "minecraft:nether/obtain_crying_obsidian": {
-    "criteria": {
-      "crying_obsidian": "2025-12-28 01:36:04 +0700"
-    },
-    "done": true
-  },
   "alltheores:recipes/misc/diamond_rod": {
     "criteria": {
       "has_TagKey[minecraft:item / forge:gems/diamond]_ingot": "2025-12-28 00:59:24 +0700"
     },
     "done": true
   },
-  "silentgems:recipes/building_blocks/peridot_lamp": {
+  "alltheores:recipes/misc/diamond_plate": {
     "criteria": {
-      "has_item": "2025-12-28 01:41:39 +0700"
+      "has_TagKey[minecraft:item / forge:gems/diamond]_ingot": "2025-12-28 00:59:24 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/steel_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2025-12-28 01:01:36 +0700"
     },
     "done": true
   },
@@ -8303,51 +8253,57 @@
     },
     "done": true
   },
-  "irons_spellbooks:irons_spellbooks/staff_artificer": {
-    "criteria": {
-      "requirement": "2025-12-28 00:51:19 +0700"
-    },
-    "done": true
-  },
-  "alltheores:recipes/misc/raw_tin_from_block": {
-    "criteria": {
-      "has_item": "2025-12-28 00:48:43 +0700"
-    },
-    "done": true
-  },
-  "alltheores:recipes/misc/ruby_block": {
-    "criteria": {
-      "has_TagKey[minecraft:item / forge:gems/ruby]_ingot": "2025-12-28 01:41:44 +0700"
-    },
-    "done": true
-  },
   "alltheores:recipes/misc/steel_rod": {
     "criteria": {
       "has_TagKey[minecraft:item / forge:ingots/steel]_ingot": "2025-12-28 01:01:36 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/beehive": {
+  "alltheores:recipes/misc/steel_plate": {
     "criteria": {
-      "has_honeycomb": "2025-12-28 01:15:16 +0700"
+      "has_TagKey[minecraft:item / forge:ingots/steel]_ingot": "2025-12-28 01:01:36 +0700"
     },
     "done": true
   },
-  "irons_spellbooks:irons_spellbooks/root": {
+  "alltheores:recipes/misc/steel_gear": {
     "criteria": {
-      "inscription_table": "2025-12-28 00:35:26 +0700"
+      "has_TagKey[minecraft:item / forge:ingots/steel]_ingot": "2025-12-28 01:01:36 +0700"
     },
     "done": true
   },
-  "alltheores:recipes/misc/steel_ingot_from_dust": {
+  "minecraft:recipes/building_blocks/jungle_stairs": {
     "criteria": {
-      "has_item": "2025-12-28 00:58:00 +0700"
+      "has_planks": "2025-12-28 01:06:07 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/misc/netherite_scrap": {
+  "minecraft:recipes/redstone/jungle_trapdoor": {
     "criteria": {
-      "has_ancient_debris": "2025-12-28 00:49:06 +0700"
+      "has_planks": "2025-12-28 01:06:07 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_sign": {
+    "criteria": {
+      "has_planks": "2025-12-28 01:06:07 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_door": {
+    "criteria": {
+      "has_planks": "2025-12-28 01:06:07 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_fence": {
+    "criteria": {
+      "has_planks": "2025-12-28 01:06:07 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_slab": {
+    "criteria": {
+      "has_planks": "2025-12-28 01:06:07 +0700"
     },
     "done": true
   },
@@ -8363,105 +8319,39 @@
     },
     "done": true
   },
-  "alltheores:recipes/misc/steel_ingot_from_dust_blasting": {
-    "criteria": {
-      "has_item": "2025-12-28 00:58:00 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dark_oak_planks": {
-    "criteria": {
-      "has_log": "2025-12-28 01:25:59 +0700"
-    },
-    "done": true
-  },
-  "silentgems:recipes/building_blocks/peridot_glass": {
-    "criteria": {
-      "has_item": "2025-12-28 01:41:39 +0700"
-    },
-    "done": true
-  },
-  "alltheores:recipes/misc/steel_plate": {
-    "criteria": {
-      "has_TagKey[minecraft:item / forge:ingots/steel]_ingot": "2025-12-28 01:01:36 +0700"
-    },
-    "done": true
-  },
-  "alltheores:recipes/misc/tin_ingot_from_raw_blasting": {
-    "criteria": {
-      "has_item": "2025-12-28 00:48:41 +0700"
-    },
-    "done": true
-  },
-  "irons_spellbooks:irons_spellbooks/staff_root": {
-    "criteria": {
-      "requirement": "2025-12-28 00:51:19 +0700"
-    },
-    "done": true
-  },
-  "alltheores:recipes/misc/steel_gear": {
-    "criteria": {
-      "has_TagKey[minecraft:item / forge:ingots/steel]_ingot": "2025-12-28 01:01:36 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/respawn_anchor": {
-    "criteria": {
-      "has_obsidian": "2025-12-28 01:36:04 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dark_oak_wood": {
-    "criteria": {
-      "has_log": "2025-12-28 01:25:59 +0700"
-    },
-    "done": true
-  },
-  "farmersdelight:main/master_chef": {
-    "criteria": {
-      "roast_chicken": "2025-12-28 01:57:22 +0700"
-    },
-    "done": false
-  },
-  "farmersdelight:main/eat_nourishing_food": {
-    "criteria": {
-      "nourishment": "2025-12-28 01:57:22 +0700"
-    },
-    "done": true
-  },
-  "silentgems:recipes/building_blocks/peridot_bricks": {
-    "criteria": {
-      "has_item": "2025-12-28 01:41:39 +0700"
-    },
-    "done": true
-  },
-  "silentgems:recipes/food/sugar_cookie": {
-    "criteria": {
-      "has_item": "2025-12-28 01:14:02 +0700"
-    },
-    "done": true
-  },
-  "irons_spellbooks:irons_spellbooks/spell_book_equip": {
-    "criteria": {
-      "requirement": "2025-12-28 00:27:57 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/crimson_hyphae": {
-    "criteria": {
-      "has_log": "2025-12-28 00:48:24 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/jungle_pressure_plate": {
     "criteria": {
       "has_planks": "2025-12-28 01:06:07 +0700"
     },
     "done": true
   },
-  "silentgems:recipes/misc/peridot_from_block": {
+  "minecraft:adventure/voluntary_exile": {
     "criteria": {
-      "has_item": "2025-12-28 01:41:39 +0700"
+      "voluntary_exile": "2025-12-28 01:06:46 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-12-28 01:13:13 +0700"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/void_lily": {
+    "criteria": {
+      "has_amethyst_shard": "2025-12-28 01:13:13 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2025-12-28 01:13:13 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-12-28 01:13:13 +0700"
     },
     "done": true
   },
@@ -8471,15 +8361,57 @@
     },
     "done": true
   },
-  "alltheores:recipes/misc/diamond_plate": {
+  "lootr:50loot": {
     "criteria": {
-      "has_TagKey[minecraft:item / forge:gems/diamond]_ingot": "2025-12-28 00:59:24 +0700"
+      "loot_stat": "2025-12-28 01:13:54 +0700"
     },
     "done": true
   },
-  "alltheores:recipes/misc/iron_ingot_from_dust_blasting": {
+  "silentgems:recipes/food/sugar_cookie": {
     "criteria": {
-      "has_item": "2025-12-28 00:57:47 +0700"
+      "has_item": "2025-12-28 01:14:02 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/beehive": {
+    "criteria": {
+      "has_honeycomb": "2025-12-28 01:15:16 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2025-12-28 01:15:16 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2025-12-28 01:25:59 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2025-12-28 01:25:59 +0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:charm_collector": {
+    "criteria": {
+      "charm_collector_2": "2025-12-28 01:31:22 +0700"
+    },
+    "done": false
+  },
+  "silentgear:recipes/misc/leather_from_scraps": {
+    "criteria": {
+      "has_item": "2025-12-28 01:31:22 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/leather_scrap": {
+    "criteria": {
+      "has_item": "2025-12-28 01:31:22 +0700"
     },
     "done": true
   },
@@ -8495,21 +8427,358 @@
     },
     "done": true
   },
-  "silentgems:recipes/building_blocks/peridot_lamp_inverted_on": {
-    "criteria": {
-      "has_item": "2025-12-28 01:41:39 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/scaffolding": {
     "criteria": {
       "has_bamboo": "2025-12-28 01:35:15 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/honeycomb_block": {
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
     "criteria": {
-      "has_honeycomb": "2025-12-28 01:15:16 +0700"
+      "has_gold_block": "2025-12-28 01:35:56 +0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2025-12-28 01:36:04 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2025-12-28 01:36:04 +0700"
+    },
+    "done": true
+  },
+  "silentgems:recipes/misc/peridot_block": {
+    "criteria": {
+      "has_item": "2025-12-28 01:41:39 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/peridot_block": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:gems/peridot]_ingot": "2025-12-28 01:41:39 +0700"
+    },
+    "done": true
+  },
+  "silentgems:recipes/building_blocks/peridot_lamp": {
+    "criteria": {
+      "has_item": "2025-12-28 01:41:39 +0700"
+    },
+    "done": true
+  },
+  "silentgems:recipes/building_blocks/peridot_glass": {
+    "criteria": {
+      "has_item": "2025-12-28 01:41:39 +0700"
+    },
+    "done": true
+  },
+  "silentgems:recipes/building_blocks/peridot_bricks": {
+    "criteria": {
+      "has_item": "2025-12-28 01:41:39 +0700"
+    },
+    "done": true
+  },
+  "silentgems:recipes/misc/peridot_from_block": {
+    "criteria": {
+      "has_item": "2025-12-28 01:41:39 +0700"
+    },
+    "done": true
+  },
+  "silentgems:recipes/building_blocks/peridot_lamp_inverted_on": {
+    "criteria": {
+      "has_item": "2025-12-28 01:41:39 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/ruby_block": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:gems/ruby]_ingot": "2025-12-28 01:41:44 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_planks": {
+    "criteria": {
+      "has_logs": "2025-12-28 01:47:13 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:main/master_chef": {
+    "criteria": {
+      "shepherds_pie": "2025-12-29 00:17:58 +0700",
+      "roast_chicken": "2025-12-28 01:57:22 +0700"
+    },
+    "done": false
+  },
+  "farmersdelight:main/eat_nourishing_food": {
+    "criteria": {
+      "nourishment": "2025-12-28 01:57:22 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/recovery_compass": {
+    "criteria": {
+      "has_echo_shard": "2025-12-28 23:28:29 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_the_recipe": "2025-12-28 23:39:51 +0700"
+    },
+    "done": true
+  },
+  "silentgear:grader_catalyst_2": {
+    "criteria": {
+      "get_item": "2025-12-29 02:11:10 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_deepslate_wall": {
+    "criteria": {
+      "has_polished_deepslate": "2025-12-29 00:48:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_bricks": {
+    "criteria": {
+      "has_polished_deepslate": "2025-12-29 00:48:14 +0700"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/make_scroll_forge": {
+    "criteria": {
+      "scroll_forge": "2025-12-29 00:48:12 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_slab": {
+    "criteria": {
+      "has_polished_deepslate": "2025-12-29 00:48:14 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/blazing_dust": {
+    "criteria": {
+      "has_item": "2025-12-29 02:10:52 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/cooked_salmon_slice_from_campfire_cooking": {
+    "criteria": {
+      "cooked_salmon_slice": "2025-12-29 00:15:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_lantern": {
+    "criteria": {
+      "has_the_recipe": "2025-12-29 01:02:00 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/blaze_gold_dust": {
+    "criteria": {
+      "has_item": "2025-12-29 02:10:13 +0700"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/spell_book_netherite": {
+    "criteria": {
+      "requirement": "2025-12-29 00:47:44 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/blaze_gold_nugget": {
+    "criteria": {
+      "has_item": "2025-12-29 02:10:13 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2025-12-29 02:00:52 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/blaze_gold_block": {
+    "criteria": {
+      "has_item": "2025-12-29 02:10:13 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2025-12-29 00:36:26 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/throw_trident": {
+    "criteria": {
+      "shot_trident": "2025-12-29 00:45:12 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/cooked_salmon_slice": {
+    "criteria": {
+      "cooked_salmon_slice": "2025-12-29 00:15:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_slab_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2025-12-29 00:48:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_voidmetal_to_ingot_blasting": {
+    "criteria": {
+      "has_ore": "2025-12-29 01:48:55 +0700"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/brimstone_nectar": {
+    "criteria": {
+      "has_netherite_scrap": "2025-12-29 00:47:37 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/blaze_gold_dust_smelting": {
+    "criteria": {
+      "has_item": "2025-12-29 02:10:13 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2025-12-29 00:48:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2025-12-29 00:48:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_stairs": {
+    "criteria": {
+      "has_polished_deepslate": "2025-12-29 00:48:14 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/blaze_gold_ingot_from_block": {
+    "criteria": {
+      "has_item": "2025-12-29 02:10:13 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/cooked_salmon_slice_from_smoking": {
+    "criteria": {
+      "cooked_salmon_slice": "2025-12-29 00:15:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2025-12-29 00:48:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2025-12-29 00:48:14 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/salmon_roll": {
+    "criteria": {
+      "has_salmon_slice": "2025-12-29 00:15:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_bricks_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2025-12-29 00:48:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2025-12-29 00:48:14 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/blaze_gold_dust_blasting": {
+    "criteria": {
+      "has_item": "2025-12-29 02:10:13 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/blaze_gold_ingot_from_nugget": {
+    "criteria": {
+      "has_item": "2025-12-29 02:10:13 +0700"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/ink_legendary": {
+    "criteria": {
+      "requirement": "2025-12-29 00:51:32 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2025-12-29 00:48:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_deepslate_wall_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2025-12-29 00:48:14 +0700"
+    },
+    "done": true
+  },
+  "silentgear:blaze_gold": {
+    "criteria": {
+      "get_item": "2025-12-29 02:10:13 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_voidmetal_to_ingot": {
+    "criteria": {
+      "has_ore": "2025-12-29 01:48:55 +0700"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/make_arcane_anvil": {
+    "criteria": {
+      "arcane_anvil": "2025-12-29 00:56:56 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2025-12-29 00:36:26 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2025-12-29 00:48:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2025-12-29 01:46:53 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_polished_deepslate_stonecutting": {
+    "criteria": {
+      "has_polished_deepslate": "2025-12-29 00:48:14 +0700"
     },
     "done": true
   },

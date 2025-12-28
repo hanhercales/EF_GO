@@ -3,9 +3,11 @@
 	type: "party"
 	owner: "a886f660-3c2a-11ea-9ed6-b42e996a7d7a"
 	ranks: {
+		e2fef7cc-bdee-4e81-8596-799410b6f5eb: "member"
 		7b61e304-6148-3f7e-8592-b9b5d7b00893: "member"
 		7777313f-518d-47f7-8e7d-aab9f5a0a4ff: "member"
 		a886f660-3c2a-11ea-9ed6-b42e996a7d7a: "owner"
+		ecbe717c-3536-38c0-b253-6c7c5579377c: "member"
 	}
 	properties: {
 		"ftbteams:display_name": "hanhercules's Party"
@@ -32,6 +34,11 @@
 		{ from: "00000000-0000-0000-0000-000000000000", date: 1766598628868L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"changkhoyeuem\"}]}" }
 		{ from: "a886f660-3c2a-11ea-9ed6-b42e996a7d7a", date: 1766671063587L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"uwuAri_\"}]}" }
 		{ from: "00000000-0000-0000-0000-000000000000", date: 1766671065690L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"uwuAri_\"}]}" }
+		{ from: "a886f660-3c2a-11ea-9ed6-b42e996a7d7a", date: 1766941741995L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"FoolishKiller\"}]}" }
+		{ from: "a886f660-3c2a-11ea-9ed6-b42e996a7d7a", date: 1766947534950L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"FoolishKiller\"}]}" }
+		{ from: "a886f660-3c2a-11ea-9ed6-b42e996a7d7a", date: 1766947534951L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"PhiaKun\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1766947539651L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"PhiaKun\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1766947541949L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"FoolishKiller\"}]}" }
 	]
 	extra: { }
 }
