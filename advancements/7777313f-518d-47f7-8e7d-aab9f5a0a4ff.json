@@ -80,6 +80,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:taiga": "2025-12-28 14:36:42 +0700",
       "minecraft:deep_ocean": "2025-12-28 00:59:55 +0700",
       "minecraft:sunflower_plains": "2025-12-26 23:25:11 +0700",
       "minecraft:birch_forest": "2025-12-27 01:22:22 +0700",
@@ -87,11 +88,18 @@
       "minecraft:dark_forest": "2025-12-27 01:21:26 +0700",
       "minecraft:river": "2025-12-26 23:22:09 +0700",
       "minecraft:stony_shore": "2025-12-27 12:00:35 +0700",
+      "minecraft:dripstone_caves": "2025-12-28 14:42:10 +0700",
+      "minecraft:grove": "2025-12-28 14:40:55 +0700",
+      "minecraft:cold_ocean": "2025-12-28 14:34:59 +0700",
       "minecraft:forest": "2025-12-26 23:17:45 +0700",
       "minecraft:lush_caves": "2025-12-27 00:44:29 +0700",
+      "minecraft:deep_cold_ocean": "2025-12-28 14:34:36 +0700",
       "minecraft:ocean": "2025-12-27 01:49:55 +0700",
       "minecraft:flower_forest": "2025-12-27 00:37:14 +0700",
+      "minecraft:frozen_peaks": "2025-12-28 14:41:57 +0700",
       "minecraft:old_growth_birch_forest": "2025-12-27 00:43:14 +0700",
+      "minecraft:deep_dark": "2025-12-28 14:44:53 +0700",
+      "minecraft:meadow": "2025-12-28 14:39:45 +0700",
       "minecraft:plains": "2025-12-26 20:01:27 +0700"
     },
     "done": false
@@ -6442,15 +6450,27 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/food/grilled_salmon": {
+  "minecraft:recipes/misc/charcoal": {
     "criteria": {
-      "has_salmon": "2025-12-28 01:30:40 +0700"
+      "has_log": "2025-12-28 01:17:14 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/birch_button": {
+  "naturescompass:natures_compass_log": {
     "criteria": {
-      "has_planks": "2025-12-28 01:20:02 +0700"
+      "has_log": "2025-12-28 01:17:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2025-12-28 01:17:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2025-12-28 01:17:14 +0700"
     },
     "done": true
   },
@@ -6460,9 +6480,69 @@
     },
     "done": true
   },
-  "minecraft:husbandry/fishy_business": {
+  "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
-      "salmon": "2025-12-28 01:30:39 +0700"
+      "has_planks": "2025-12-28 01:17:16 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-12-28 01:17:16 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_door": {
+    "criteria": {
+      "has_planks": "2025-12-28 01:17:16 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-12-28 01:17:16 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-12-28 01:17:16 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_fence": {
+    "criteria": {
+      "has_planks": "2025-12-28 01:17:16 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_button": {
+    "criteria": {
+      "has_planks": "2025-12-28 01:17:16 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-12-28 01:17:16 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2025-12-28 01:19:43 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2025-12-28 01:19:43 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_button": {
+    "criteria": {
+      "has_planks": "2025-12-28 01:20:02 +0700"
     },
     "done": true
   },
@@ -6484,12 +6564,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/birch_wood": {
-    "criteria": {
-      "has_log": "2025-12-28 01:19:43 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/birch_fence_gate": {
     "criteria": {
       "has_planks": "2025-12-28 01:20:02 +0700"
@@ -6502,13 +6576,19 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/conduit": {
+  "minecraft:recipes/building_blocks/birch_stairs": {
     "criteria": {
-      "has_nautilus_core": "2025-12-28 02:00:54 +0700"
+      "has_planks": "2025-12-28 01:20:02 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/birch_stairs": {
+  "minecraft:recipes/redstone/birch_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-12-28 01:20:02 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_pressure_plate": {
     "criteria": {
       "has_planks": "2025-12-28 01:20:02 +0700"
     },
@@ -6520,33 +6600,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oak_slab": {
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
     "criteria": {
-      "has_planks": "2025-12-28 01:17:16 +0700"
+      "has_oxeye_daisy": "2025-12-28 01:27:33 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/birch_planks": {
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
     "criteria": {
-      "has_logs": "2025-12-28 01:19:43 +0700"
+      "has_dandelion": "2025-12-28 01:27:44 +0700"
     },
     "done": true
   },
-  "apotheosis:enchanting/60ench": {
+  "minecraft:husbandry/fishy_business": {
     "criteria": {
-      "enchanted_item": "2025-12-28 01:55:27 +0700"
+      "salmon": "2025-12-28 01:30:39 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/oak_fence_gate": {
+  "farmersdelight:recipes/food/grilled_salmon": {
     "criteria": {
-      "has_planks": "2025-12-28 01:17:16 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/charcoal": {
-    "criteria": {
-      "has_log": "2025-12-28 01:17:14 +0700"
+      "has_salmon": "2025-12-28 01:30:40 +0700"
     },
     "done": true
   },
@@ -6556,15 +6630,15 @@
     },
     "done": true
   },
-  "naturescompass:natures_compass_log": {
+  "minecraft:recipes/food/cooked_salmon": {
     "criteria": {
-      "has_log": "2025-12-28 01:17:14 +0700"
+      "has_salmon": "2025-12-28 01:30:40 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/oak_door": {
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
     "criteria": {
-      "has_planks": "2025-12-28 01:17:16 +0700"
+      "has_salmon": "2025-12-28 01:30:40 +0700"
     },
     "done": true
   },
@@ -6574,39 +6648,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oak_planks": {
+  "majruszsenchantments:fishing_fanatic_rain": {
     "criteria": {
-      "has_logs": "2025-12-28 01:17:14 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oak_wood": {
-    "criteria": {
-      "has_log": "2025-12-28 01:17:14 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/oak_trapdoor": {
-    "criteria": {
-      "has_planks": "2025-12-28 01:17:16 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_salmon": {
-    "criteria": {
-      "has_salmon": "2025-12-28 01:30:40 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oak_stairs": {
-    "criteria": {
-      "has_planks": "2025-12-28 01:17:16 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/oak_fence": {
-    "criteria": {
-      "has_planks": "2025-12-28 01:17:16 +0700"
+      "has_met_requirement": "2025-12-28 01:32:35 +0700"
     },
     "done": true
   },
@@ -6616,9 +6660,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+  "apotheosis:enchanting/enchanting_stats": {
     "criteria": {
-      "has_dandelion": "2025-12-28 01:27:44 +0700"
+      "enchanted_item": "2025-12-28 01:48:35 +0700"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/upgrade_seashelf": {
+    "criteria": {
+      "crystal": "2025-12-28 01:54:15 +0700"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/60ench": {
+    "criteria": {
+      "enchanted_item": "2025-12-28 01:55:27 +0700"
     },
     "done": true
   },
@@ -6634,57 +6690,429 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/oak_button": {
+  "minecraft:recipes/misc/conduit": {
     "criteria": {
-      "has_planks": "2025-12-28 01:17:16 +0700"
+      "has_nautilus_core": "2025-12-28 02:00:54 +0700"
     },
     "done": true
   },
-  "apotheosis:enchanting/enchanting_stats": {
+  "minecraft:recipes/misc/white_dye": {
     "criteria": {
-      "enchanted_item": "2025-12-28 01:48:35 +0700"
+      "has_bone_meal": "2025-12-28 13:26:26 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+  "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
-      "has_salmon": "2025-12-28 01:30:40 +0700"
+      "has_bone_meal": "2025-12-28 13:26:26 +0700"
     },
     "done": true
   },
-  "majruszsenchantments:fishing_fanatic_rain": {
+  "apotheosis:enchanting/deepshelf": {
     "criteria": {
-      "has_met_requirement": "2025-12-28 01:32:35 +0700"
+      "deepshelf": "2025-12-28 13:33:25 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/oak_pressure_plate": {
+  "apotheosis:enchanting/arcana50": {
     "criteria": {
-      "has_planks": "2025-12-28 01:17:16 +0700"
+      "enchanted_item": "2025-12-28 13:34:40 +0700"
     },
     "done": true
   },
-  "apotheosis:enchanting/upgrade_seashelf": {
+  "minecraft:recipes/misc/emerald": {
     "criteria": {
-      "crystal": "2025-12-28 01:54:15 +0700"
+      "has_emerald_block": "2025-12-28 13:39:20 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/birch_trapdoor": {
+  "minecraft:recipes/misc/lapis_lazuli": {
     "criteria": {
-      "has_planks": "2025-12-28 01:20:02 +0700"
+      "has_lapis_block": "2025-12-28 13:43:00 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+  "minecraft:story/lava_bucket": {
     "criteria": {
-      "has_oxeye_daisy": "2025-12-28 01:27:33 +0700"
+      "lava_bucket": "2025-12-28 14:04:44 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/birch_pressure_plate": {
+  "minecraft:recipes/brewing/cauldron": {
     "criteria": {
-      "has_planks": "2025-12-28 01:20:02 +0700"
+      "has_water_bucket": "2025-12-28 14:06:40 +0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:lifeturnedouttobeacomedy": {
+    "criteria": {
+      "lifeturnedouttobeacomedy_0": "2025-12-28 14:07:43 +0700"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass": {
+    "criteria": {
+      "has_compass": "2025-12-28 14:22:54 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2025-12-28 14:22:54 +0700"
+    },
+    "done": true
+  },
+  "explorerscompass:explorers_compass": {
+    "criteria": {
+      "has_compass": "2025-12-28 14:22:54 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
+    "criteria": {
+      "has_coast_armor_trim_smithing_template": "2025-12-28 14:35:45 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-12-28 14:35:45 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/sweet_berry_cookie": {
+    "criteria": {
+      "has_sweet_berries": "2025-12-28 14:36:57 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2025-12-28 14:50:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2025-12-28 14:50:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2025-12-28 14:50:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2025-12-28 14:50:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/recovery_compass": {
+    "criteria": {
+      "has_echo_shard": "2025-12-28 14:59:48 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_voidmetal_to_ingot_blasting": {
+    "criteria": {
+      "has_ore": "2025-12-28 15:04:26 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_voidmetal_to_ingot": {
+    "criteria": {
+      "has_ore": "2025-12-28 15:04:26 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2025-12-28 15:07:54 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/voidmetal_ingot_packing": {
+    "criteria": {
+      "voidmetal_ingot": "2025-12-28 15:19:13 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/voidmetal_ingot_unpacking": {
+    "criteria": {
+      "voidmetal_ingot": "2025-12-28 15:19:13 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/silver_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2025-12-28 15:19:20 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/silver_gear": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/silver]_ingot": "2025-12-28 15:19:20 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/silver_block": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/silver]_ingot": "2025-12-28 15:19:20 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/silver_rod": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/silver]_ingot": "2025-12-28 15:19:20 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/raw_silver_from_block": {
+    "criteria": {
+      "has_item": "2025-12-28 15:19:20 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/silver_plate": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/silver]_ingot": "2025-12-28 15:19:20 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/zinc_gear": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/zinc]_ingot": "2025-12-28 15:19:50 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/zinc_block": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/zinc]_ingot": "2025-12-28 15:19:50 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/zinc_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2025-12-28 15:19:50 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/zinc_plate": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/zinc]_ingot": "2025-12-28 15:19:50 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/zinc_rod": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/zinc]_ingot": "2025-12-28 15:19:50 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/sapphire_block": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:gems/sapphire]_ingot": "2025-12-28 15:19:53 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_lantern": {
+    "criteria": {
+      "has_soul_torch": "2025-12-28 15:27:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ward_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-12-28 15:38:09 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ward_armor_trim_smithing_template": {
+    "criteria": {
+      "has_ward_armor_trim_smithing_template": "2025-12-28 15:38:09 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/music_disc_5": {
+    "criteria": {
+      "has_disc_fragment_5": "2025-12-28 15:45:14 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/raw_platinum_from_block": {
+    "criteria": {
+      "has_item": "2025-12-28 15:46:54 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/platinum_block": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/platinum]_ingot": "2025-12-28 15:46:56 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/platinum_rod": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/platinum]_ingot": "2025-12-28 15:46:56 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/platinum_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2025-12-28 15:46:56 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/platinum_gear": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/platinum]_ingot": "2025-12-28 15:46:56 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/platinum_plate": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/platinum]_ingot": "2025-12-28 15:46:56 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/platinum_ingot_from_raw_blasting": {
+    "criteria": {
+      "has_item": "2025-12-28 15:47:14 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/raw_platinum_block": {
+    "criteria": {
+      "has_raw_TagKey[minecraft:item / forge:raw_materials/platinum]": "2025-12-28 15:47:14 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/platinum_ingot_from_raw": {
+    "criteria": {
+      "has_item": "2025-12-28 15:47:14 +0700"
+    },
+    "done": true
+  },
+  "silentgems:recipes/misc/turquoise_from_block": {
+    "criteria": {
+      "has_item": "2025-12-28 17:33:48 +0700"
+    },
+    "done": true
+  },
+  "silentgems:recipes/building_blocks/turquoise_lamp_inverted_on": {
+    "criteria": {
+      "has_item": "2025-12-28 17:33:48 +0700"
+    },
+    "done": true
+  },
+  "silentgems:recipes/misc/turquoise_block": {
+    "criteria": {
+      "has_item": "2025-12-28 17:33:48 +0700"
+    },
+    "done": true
+  },
+  "silentgems:recipes/building_blocks/turquoise_glass": {
+    "criteria": {
+      "has_item": "2025-12-28 17:33:48 +0700"
+    },
+    "done": true
+  },
+  "silentgems:recipes/building_blocks/turquoise_lamp": {
+    "criteria": {
+      "has_item": "2025-12-28 17:33:48 +0700"
+    },
+    "done": true
+  },
+  "silentgems:recipes/building_blocks/turquoise_bricks": {
+    "criteria": {
+      "has_item": "2025-12-28 17:33:48 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-12-28 17:35:17 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-12-28 17:35:17 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-12-28 17:35:17 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-12-28 17:35:17 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-12-28 17:35:17 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_deepslate_bricks": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-12-28 17:35:17 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-12-28 17:35:17 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-12-28 17:35:17 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-12-28 17:35:17 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-12-28 17:35:17 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-12-28 17:35:17 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-12-28 17:35:17 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/silence_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-12-28 17:42:05 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/silence_armor_trim_smithing_template": {
+    "criteria": {
+      "has_silence_armor_trim_smithing_template": "2025-12-28 17:42:05 +0700"
     },
     "done": true
   },

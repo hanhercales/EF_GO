@@ -1,0 +1,19 @@
+{
+	version: 1
+	uuid: "e2fef7ccbdee4e818596799410b6f5eb"
+	name: "PhiaKun#e2fef7cc"
+	lock: false
+	rewards_blocked: false
+	task_progress: {
+		0000000000003202: 1
+	}
+	started: {
+		3000000000000000: 1766906761094L
+		0000000000003202: 1766906761094L
+		3BBB71F09B734B1D: 1766906761094L
+		0000000000000001: 1766906761094L
+	}
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}
