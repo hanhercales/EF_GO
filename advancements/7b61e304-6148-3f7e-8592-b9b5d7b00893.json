@@ -4061,6 +4061,7 @@
       "minecraft:skeleton": "2025-12-25 21:33:37 +0700",
       "minecraft:spider": "2025-12-28 01:43:53 +0700",
       "minecraft:phantom": "2025-12-28 01:26:15 +0700",
+      "minecraft:witch": "2025-12-30 12:55:55 +0700",
       "minecraft:zombie": "2025-12-25 23:02:41 +0700",
       "minecraft:drowned": "2025-12-29 02:12:58 +0700"
     },
@@ -5516,15 +5517,57 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/light_blue_stained_glass": {
+  "minecraft:story/shiny_gear": {
     "criteria": {
-      "has_glass": "2025-12-30 01:36:20 +0700"
+      "diamond_leggings": "2025-12-30 00:26:14 +0700"
     },
     "done": true
+  },
+  "twilightforest:fiery_set": {
+    "criteria": {
+      "fiery_boots": "2025-12-30 00:26:14 +0700"
+    },
+    "done": false
   },
   "farmersdelight:recipes/cooking/stuffed_pumpkin_block": {
     "criteria": {
       "has_pumpkin": "2025-12-30 00:43:07 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2025-12-30 00:43:07 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2025-12-30 00:43:07 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/pumpkin_seeds_from_slice": {
+    "criteria": {
+      "has_pumpkin_slice": "2025-12-30 00:59:19 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/pumpkin_from_slices": {
+    "criteria": {
+      "has_pumpkin_slice": "2025-12-30 00:59:19 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/wood/oak_banister": {
+    "criteria": {
+      "has_item": "2025-12-30 01:33:50 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-12-30 01:36:20 +0700"
     },
     "done": true
   },
@@ -5551,24 +5594,6 @@
       "has_glass": "2025-12-30 01:36:20 +0700"
     },
     "done": true
-  },
-  "minecraft:story/shiny_gear": {
-    "criteria": {
-      "diamond_leggings": "2025-12-30 00:26:14 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/pumpkin_pie": {
-    "criteria": {
-      "has_pumpkin": "2025-12-30 00:43:07 +0700"
-    },
-    "done": true
-  },
-  "twilightforest:fiery_set": {
-    "criteria": {
-      "fiery_boots": "2025-12-30 00:26:14 +0700"
-    },
-    "done": false
   },
   "minecraft:recipes/building_blocks/red_stained_glass": {
     "criteria": {
@@ -5606,18 +5631,6 @@
     },
     "done": true
   },
-  "twilightforest:recipes/decorations/wood/oak_banister": {
-    "criteria": {
-      "has_item": "2025-12-30 01:33:50 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/pumpkin_seeds": {
-    "criteria": {
-      "has_pumpkin": "2025-12-30 00:43:07 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/lime_stained_glass": {
     "criteria": {
       "has_glass": "2025-12-30 01:36:20 +0700"
@@ -5648,12 +5661,6 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/misc/pumpkin_seeds_from_slice": {
-    "criteria": {
-      "has_pumpkin_slice": "2025-12-30 00:59:19 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/purple_stained_glass": {
     "criteria": {
       "has_glass": "2025-12-30 01:36:20 +0700"
@@ -5666,9 +5673,119 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/building_blocks/pumpkin_from_slices": {
+  "twilightforest:recipes/combat/equipment/fiery_fiery_boots": {
     "criteria": {
-      "has_pumpkin_slice": "2025-12-30 00:59:19 +0700"
+      "has_item": "2025-12-30 13:00:46 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:twilight_dinner": {
+    "criteria": {
+      "meef_stroganoff": "2025-12-30 12:44:58 +0700"
+    },
+    "done": false
+  },
+  "twilightforest:recipes/redstone/carminite_builder": {
+    "criteria": {
+      "has_item": "2025-12-30 12:40:37 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:progress_lich": {
+    "criteria": {
+      "twilight_scepter": "2025-12-30 12:29:26 +0700",
+      "kill_naga": "2025-12-30 12:29:26 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/fiery_iron_sword": {
+    "criteria": {
+      "has_item": "2025-12-30 13:00:46 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/fiery_fiery_leggings": {
+    "criteria": {
+      "has_item": "2025-12-30 13:00:46 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/twilight_scepter": {
+    "criteria": {
+      "has_item": "2025-12-30 12:29:26 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:progress_naga": {
+    "criteria": {
+      "scale": "2025-12-30 12:29:26 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/redstone/carminite_reactor": {
+    "criteria": {
+      "has_item": "2025-12-30 12:40:37 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:progress_trophy_pedestal": {
+    "criteria": {
+      "kill_lich": "2025-12-30 12:29:26 +0700"
+    },
+    "done": false
+  },
+  "twilightforest:progress_labyrinth": {
+    "criteria": {
+      "meef": "2025-12-30 12:44:58 +0700",
+      "kill_lich": "2025-12-30 12:29:26 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/compressed_blocks/carminite_block": {
+    "criteria": {
+      "has_item": "2025-12-30 12:40:37 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:progress_hydra": {
+    "criteria": {
+      "stroganoff": "2025-12-30 12:44:58 +0700"
+    },
+    "done": false
+  },
+  "born_in_chaos_v1:trickor_treat": {
+    "criteria": {
+      "trickor_treat_4": "2025-12-30 12:51:53 +0700"
+    },
+    "done": false
+  },
+  "twilightforest:recipes/misc/equipment/fiery_ingot_crafting": {
+    "criteria": {
+      "has_item": "2025-12-30 13:00:46 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/fiery_fiery_chestplate": {
+    "criteria": {
+      "has_item": "2025-12-30 13:00:46 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/tools/equipment/fiery_iron_pickaxe": {
+    "criteria": {
+      "has_item": "2025-12-30 13:00:46 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:progress_yeti": {
+    "criteria": {
+      "previous_progression": "2025-12-30 12:29:26 +0700"
+    },
+    "done": false
+  },
+  "twilightforest:recipes/combat/equipment/fiery_fiery_helmet": {
+    "criteria": {
+      "has_item": "2025-12-30 13:00:46 +0700"
     },
     "done": true
   },

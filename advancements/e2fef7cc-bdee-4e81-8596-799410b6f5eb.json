@@ -6360,39 +6360,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/golden_carrot": {
+  "aquamirae:adventure/obtain_dagger_of_greed": {
     "criteria": {
-      "has_gold_nugget": "2025-12-30 04:32:37 +0700"
-    },
-    "done": true
-  },
-  "endrem:main/undead_eye_recipe": {
-    "criteria": {
-      "soul": "2025-12-30 04:56:48 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/glass": {
-    "criteria": {
-      "has_smelts_to_glass": "2025-12-30 04:47:23 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
-    "criteria": {
-      "has_gold_nugget": "2025-12-30 04:32:37 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/paper": {
-    "criteria": {
-      "has_reeds": "2025-12-30 04:51:49 +0700"
-    },
-    "done": true
-  },
-  "aquamirae:adventure/obtain_rune_of_the_storm": {
-    "criteria": {
-      "rune_of_the_storm": "2025-12-30 04:31:32 +0700"
+      "dagger_of_greed": "2025-12-30 04:26:03 +0700"
     },
     "done": true
   },
@@ -6408,15 +6378,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+  "aquamirae:recipes/astral_dust": {
     "criteria": {
-      "has_sugar_cane": "2025-12-30 04:51:49 +0700"
+      "has_item": "2025-12-30 04:31:27 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/sandstone": {
+  "aquamirae:adventure/obtain_rune_of_the_storm": {
     "criteria": {
-      "has_sand": "2025-12-30 04:47:23 +0700"
+      "rune_of_the_storm": "2025-12-30 04:31:32 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2025-12-30 04:32:37 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2025-12-30 04:32:37 +0700"
     },
     "done": true
   },
@@ -6426,21 +6408,124 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2025-12-30 04:47:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2025-12-30 04:47:23 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2025-12-30 04:51:49 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2025-12-30 04:51:49 +0700"
+    },
+    "done": true
+  },
+  "endrem:main/undead_eye_recipe": {
+    "criteria": {
+      "soul": "2025-12-30 04:56:48 +0700"
+    },
+    "done": true
+  },
   "endrem:main/undead_eye": {
     "criteria": {
       "undead_eye": "2025-12-30 04:58:18 +0700"
     },
     "done": true
   },
-  "aquamirae:adventure/obtain_dagger_of_greed": {
+  "farmersdelight:recipes/cooking/mushroom_rice": {
     "criteria": {
-      "dagger_of_greed": "2025-12-30 04:26:03 +0700"
+      "has_any_ingredient": "2025-12-30 12:51:23 +0700"
     },
     "done": true
   },
-  "aquamirae:recipes/astral_dust": {
+  "farmersdelight:recipes/cooking/mushroom_stew": {
     "criteria": {
-      "has_item": "2025-12-30 04:31:27 +0700"
+      "has_any_ingredient": "2025-12-30 12:51:23 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:twilight_dinner": {
+    "criteria": {
+      "meef_stroganoff": "2025-12-30 12:55:33 +0700",
+      "hydra_chop": "2025-12-30 12:57:48 +0700"
+    },
+    "done": false
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2025-12-30 12:49:57 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2025-12-30 12:49:57 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/pie_crust": {
+    "criteria": {
+      "has_wheat": "2025-12-30 12:49:57 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/wheat_dough_from_egg": {
+    "criteria": {
+      "has_wheat": "2025-12-30 12:49:57 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/nether_salad": {
+    "criteria": {
+      "has_bowl": "2025-12-30 12:55:33 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:twilight_hunter": {
+    "criteria": {
+      "kobold": "2025-12-30 12:49:57 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:progress_labyrinth": {
+    "criteria": {
+      "meef": "2025-12-30 12:55:33 +0700"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2025-12-30 12:51:23 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/mixed_salad": {
+    "criteria": {
+      "has_bowl": "2025-12-30 12:55:33 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_brown_mushroom": "2025-12-30 12:51:23 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:root": {
+    "criteria": {
+      "in_tf": "2025-12-30 12:46:40 +0700"
     },
     "done": true
   },
