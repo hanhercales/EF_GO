@@ -5673,40 +5673,10 @@
     },
     "done": true
   },
-  "twilightforest:recipes/combat/equipment/fiery_fiery_boots": {
-    "criteria": {
-      "has_item": "2025-12-30 13:00:46 +0700"
-    },
-    "done": true
-  },
-  "twilightforest:twilight_dinner": {
-    "criteria": {
-      "meef_stroganoff": "2025-12-30 12:44:58 +0700"
-    },
-    "done": false
-  },
-  "twilightforest:recipes/redstone/carminite_builder": {
-    "criteria": {
-      "has_item": "2025-12-30 12:40:37 +0700"
-    },
-    "done": true
-  },
   "twilightforest:progress_lich": {
     "criteria": {
       "twilight_scepter": "2025-12-30 12:29:26 +0700",
       "kill_naga": "2025-12-30 12:29:26 +0700"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/combat/equipment/fiery_iron_sword": {
-    "criteria": {
-      "has_item": "2025-12-30 13:00:46 +0700"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/combat/equipment/fiery_fiery_leggings": {
-    "criteria": {
-      "has_item": "2025-12-30 13:00:46 +0700"
     },
     "done": true
   },
@@ -5719,12 +5689,6 @@
   "twilightforest:progress_naga": {
     "criteria": {
       "scale": "2025-12-30 12:29:26 +0700"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/redstone/carminite_reactor": {
-    "criteria": {
-      "has_item": "2025-12-30 12:40:37 +0700"
     },
     "done": true
   },
@@ -5741,11 +5705,35 @@
     },
     "done": true
   },
+  "twilightforest:progress_yeti": {
+    "criteria": {
+      "previous_progression": "2025-12-30 12:29:26 +0700"
+    },
+    "done": false
+  },
+  "twilightforest:recipes/redstone/carminite_builder": {
+    "criteria": {
+      "has_item": "2025-12-30 12:40:37 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/redstone/carminite_reactor": {
+    "criteria": {
+      "has_item": "2025-12-30 12:40:37 +0700"
+    },
+    "done": true
+  },
   "twilightforest:recipes/building_blocks/compressed_blocks/carminite_block": {
     "criteria": {
       "has_item": "2025-12-30 12:40:37 +0700"
     },
     "done": true
+  },
+  "twilightforest:twilight_dinner": {
+    "criteria": {
+      "meef_stroganoff": "2025-12-30 12:44:58 +0700"
+    },
+    "done": false
   },
   "twilightforest:progress_hydra": {
     "criteria": {
@@ -5758,6 +5746,24 @@
       "trickor_treat_4": "2025-12-30 12:51:53 +0700"
     },
     "done": false
+  },
+  "twilightforest:recipes/combat/equipment/fiery_fiery_boots": {
+    "criteria": {
+      "has_item": "2025-12-30 13:00:46 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/fiery_iron_sword": {
+    "criteria": {
+      "has_item": "2025-12-30 13:00:46 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/fiery_fiery_leggings": {
+    "criteria": {
+      "has_item": "2025-12-30 13:00:46 +0700"
+    },
+    "done": true
   },
   "twilightforest:recipes/misc/equipment/fiery_ingot_crafting": {
     "criteria": {
@@ -5777,15 +5783,15 @@
     },
     "done": true
   },
-  "twilightforest:progress_yeti": {
-    "criteria": {
-      "previous_progression": "2025-12-30 12:29:26 +0700"
-    },
-    "done": false
-  },
   "twilightforest:recipes/combat/equipment/fiery_fiery_helmet": {
     "criteria": {
       "has_item": "2025-12-30 13:00:46 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2025-12-31 00:16:03 +0700"
     },
     "done": true
   },
