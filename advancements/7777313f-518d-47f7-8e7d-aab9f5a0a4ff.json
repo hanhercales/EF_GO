@@ -74,10 +74,11 @@
   "lootr:social": {
     "criteria": {
       "opened_barrel": "2025-12-26 20:01:26 +0700",
+      "opened_shulker": "2025-12-30 15:40:46 +0700",
       "opened_chest": "2025-12-26 20:01:26 +0700",
       "opened_cart": "2025-12-30 03:31:49 +0700"
     },
-    "done": false
+    "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
@@ -3119,6 +3120,7 @@
       "minecraft:witch": "2025-12-27 00:37:55 +0700",
       "minecraft:wither_skeleton": "2025-12-26 23:41:01 +0700",
       "minecraft:husk": "2025-12-26 23:35:15 +0700",
+      "minecraft:shulker": "2025-12-30 14:52:25 +0700",
       "minecraft:cave_spider": "2025-12-29 13:56:58 +0700",
       "minecraft:piglin": "2025-12-26 23:40:05 +0700",
       "minecraft:enderman": "2025-12-26 23:34:28 +0700",
@@ -4819,6 +4821,7 @@
   "cataclysm:kill_all_bosses": {
     "criteria": {
       "cataclysm:maledictus": "2025-12-29 16:20:50 +0700",
+      "cataclysm:ender_guardian": "2025-12-30 15:51:38 +0700",
       "cataclysm:netherite_monstrosity": "2025-12-26 23:57:35 +0700",
       "cataclysm:ancient_remnant": "2025-12-29 17:11:35 +0700"
     },
@@ -7668,9 +7671,10 @@
   },
   "silentgear:azure_silver": {
     "criteria": {
+      "get_ore": "2025-12-30 14:58:30 +0700",
       "get_ingot": "2025-12-29 14:30:49 +0700"
     },
-    "done": false
+    "done": true
   },
   "silentgear:recipes/misc/azure_silver_nugget": {
     "criteria": {
@@ -8628,82 +8632,17 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/mushroom_rice": {
-    "criteria": {
-      "has_any_ingredient": "2025-12-30 12:50:21 +0700"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/building_blocks/maze_stone/smelted_maze_stone_cracked": {
-    "criteria": {
-      "has_item": "2025-12-30 12:43:44 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/light_blue_stained_glass": {
     "criteria": {
       "has_glass": "2025-12-30 12:08:05 +0700"
     },
     "done": true
   },
-  "twilightforest:progress_troll": {
-    "criteria": {
-      "previous_progression": "2025-12-30 13:06:02 +0700",
-      "lamp": "2025-12-30 13:10:18 +0700"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/combat/equipment/fortification_scepter": {
-    "criteria": {
-      "has_item": "2025-12-30 12:32:37 +0700"
-    },
-    "done": true
-  },
-  "twilightforest:progress_merge": {
-    "criteria": {
-      "hydra": "2025-12-30 12:56:57 +0700",
-      "snow_queen": "2025-12-30 13:06:02 +0700",
-      "ur_ghast": "2025-12-30 12:29:48 +0700"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/building_blocks/compressed_blocks/arctic_block": {
-    "criteria": {
-      "has_item": "2025-12-30 12:59:26 +0700"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/mushroom_stew": {
-    "criteria": {
-      "has_any_ingredient": "2025-12-30 12:50:21 +0700"
-    },
-    "done": true
-  },
-  "twilightforest:arborist": {
-    "criteria": {
-      "giant_log": "2025-12-30 13:08:12 +0700"
-    },
-    "done": false
-  },
   "minecraft:recipes/building_blocks/orange_stained_glass": {
     "criteria": {
       "has_glass": "2025-12-30 12:08:05 +0700"
     },
     "done": true
-  },
-  "twilightforest:recipes/combat/equipment/arctic_leggings": {
-    "criteria": {
-      "has_item": "2025-12-30 12:59:26 +0700"
-    },
-    "done": true
-  },
-  "twilightforest:twilight_dinner": {
-    "criteria": {
-      "meef_stroganoff": "2025-12-30 12:55:04 +0700",
-      "hydra_chop": "2025-12-30 12:58:28 +0700",
-      "cooked_meef": "2025-12-30 12:41:37 +0700"
-    },
-    "done": false
   },
   "minecraft:recipes/building_blocks/pink_stained_glass": {
     "criteria": {
@@ -8723,66 +8662,9 @@
     },
     "done": true
   },
-  "twilightforest:progress_glacier": {
-    "criteria": {
-      "previous_progression": "2025-12-30 13:05:41 +0700",
-      "queen": "2025-12-30 13:06:02 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/bread": {
-    "criteria": {
-      "has_wheat": "2025-12-30 13:03:25 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/hay_block": {
-    "criteria": {
-      "has_wheat": "2025-12-30 13:03:25 +0700"
-    },
-    "done": true
-  },
-  "twilightforest:progress_lich": {
-    "criteria": {
-      "twilight_scepter": "2025-12-30 12:20:29 +0700",
-      "kill_naga": "2025-12-30 12:20:29 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/red_stained_glass": {
     "criteria": {
       "has_glass": "2025-12-30 12:08:05 +0700"
-    },
-    "done": true
-  },
-  "lightmanscurrency:recipes/misc/item_trade_filter_reset": {
-    "criteria": {
-      "paper": "2025-12-30 12:17:21 +0700"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/misc/lich_banner_pattern": {
-    "criteria": {
-      "has_trophy": "2025-12-30 12:32:33 +0700"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/building_blocks/maze_stone/mossy_mazestone": {
-    "criteria": {
-      "has_item": "2025-12-30 12:43:44 +0700"
-    },
-    "done": true
-  },
-  "twilightforest:progress_knights": {
-    "criteria": {
-      "previous_progression": "2025-12-30 12:21:20 +0700",
-      "was_in_fight": "2025-12-30 12:27:56 +0700"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/misc/maze_map": {
-    "criteria": {
-      "has_item": "2025-12-30 12:39:30 +0700"
     },
     "done": true
   },
@@ -8792,101 +8674,15 @@
     },
     "done": true
   },
-  "twilightforest:recipes/combat/equipment/twilight_scepter": {
-    "criteria": {
-      "has_item": "2025-12-30 12:20:29 +0700"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/misc/knight_phantom_banner_pattern": {
-    "criteria": {
-      "has_trophy": "2025-12-30 12:28:04 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/cyan_stained_glass": {
     "criteria": {
       "has_glass": "2025-12-30 12:08:05 +0700"
     },
     "done": true
   },
-  "twilightforest:progress_naga": {
-    "criteria": {
-      "scale": "2025-12-30 12:20:29 +0700"
-    },
-    "done": true
-  },
-  "naturescompass:natures_compass_sapling": {
-    "criteria": {
-      "has_sapling": "2025-12-30 13:02:08 +0700"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/misc/minoshroom_banner_pattern": {
-    "criteria": {
-      "has_trophy": "2025-12-30 12:51:30 +0700"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/combat/equipment/arctic_chestplate": {
-    "criteria": {
-      "has_item": "2025-12-30 12:59:26 +0700"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/blueprint_paper": {
-    "criteria": {
-      "has_paper": "2025-12-30 12:17:21 +0700"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/pie_crust": {
-    "criteria": {
-      "has_wheat": "2025-12-30 13:03:25 +0700"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/wheat_dough_from_egg": {
-    "criteria": {
-      "has_wheat": "2025-12-30 13:03:25 +0700"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/nether_salad": {
-    "criteria": {
-      "has_bowl": "2025-12-30 12:55:04 +0700"
-    },
-    "done": true
-  },
-  "twilightforest:progress_trophy_pedestal": {
-    "criteria": {
-      "kill_lich": "2025-12-30 12:20:29 +0700",
-      "trophy_pedestal": "2025-12-30 12:21:20 +0700"
-    },
-    "done": true
-  },
-  "twilightforest:twilight_hunter": {
-    "criteria": {
-      "kobold": "2025-12-30 12:20:13 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/green_stained_glass": {
     "criteria": {
       "has_glass": "2025-12-30 12:08:05 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/book": {
-    "criteria": {
-      "has_paper": "2025-12-30 12:17:21 +0700"
-    },
-    "done": true
-  },
-  "twilightforest:progress_labyrinth": {
-    "criteria": {
-      "meef": "2025-12-30 12:55:04 +0700",
-      "kill_lich": "2025-12-30 12:20:29 +0700"
     },
     "done": true
   },
@@ -8899,25 +8695,6 @@
   "minecraft:recipes/building_blocks/blue_stained_glass": {
     "criteria": {
       "has_glass": "2025-12-30 12:08:05 +0700"
-    },
-    "done": true
-  },
-  "twilightforest:progress_hydra": {
-    "criteria": {
-      "stroganoff": "2025-12-30 12:55:04 +0700",
-      "was_in_fight": "2025-12-30 12:56:57 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bowl": {
-    "criteria": {
-      "has_red_mushroom": "2025-12-30 12:50:21 +0700"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/misc/material/armor_shard_cluster": {
-    "criteria": {
-      "has_item": "2025-12-30 12:22:01 +0700"
     },
     "done": true
   },
@@ -8945,77 +8722,9 @@
     },
     "done": true
   },
-  "twilightforest:progress_ur_ghast": {
-    "criteria": {
-      "previous_progression": "2025-12-30 12:27:56 +0700",
-      "was_in_fight": "2025-12-30 12:29:48 +0700"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/combat/equipment/arctic_boots": {
-    "criteria": {
-      "has_item": "2025-12-30 12:59:26 +0700"
-    },
-    "done": true
-  },
-  "twilightforest:giants": {
-    "criteria": {
-      "giant": "2025-12-30 13:07:33 +0700"
-    },
-    "done": false
-  },
   "minecraft:recipes/brewing/glass_bottle": {
     "criteria": {
       "has_glass": "2025-12-30 12:08:05 +0700"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/building_blocks/giant_log_to_oak_planks": {
-    "criteria": {
-      "has_item": "2025-12-30 13:08:12 +0700"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/misc/alpha_yeti_banner_pattern": {
-    "criteria": {
-      "has_trophy": "2025-12-30 13:05:49 +0700"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/mixed_salad": {
-    "criteria": {
-      "has_bowl": "2025-12-30 12:55:04 +0700"
-    },
-    "done": true
-  },
-  "alltheores:recipes/misc/tin_ingot_from_ore": {
-    "criteria": {
-      "has_item": "2025-12-30 13:08:57 +0700"
-    },
-    "done": true
-  },
-  "lightmanscurrency:recipes/misc/item_trade_filter": {
-    "criteria": {
-      "paper": "2025-12-30 12:17:21 +0700"
-    },
-    "done": true
-  },
-  "colossalchests:root": {
-    "criteria": {
-      "criteria_0": "2025-12-30 12:48:53 +0700"
-    },
-    "done": true
-  },
-  "alltheores:recipes/misc/tin_ingot_from_ore_blasting": {
-    "criteria": {
-      "has_item": "2025-12-30 13:08:57 +0700"
-    },
-    "done": true
-  },
-  "twilightforest:progress_yeti": {
-    "criteria": {
-      "previous_progression": "2025-12-30 12:20:29 +0700",
-      "yeti": "2025-12-30 13:05:41 +0700"
     },
     "done": true
   },
@@ -9031,9 +8740,33 @@
     },
     "done": true
   },
-  "twilightforest:recipes/combat/equipment/arctic_helmet": {
+  "twilightforest:root": {
     "criteria": {
-      "has_item": "2025-12-30 12:59:26 +0700"
+      "in_tf": "2025-12-30 12:15:24 +0700"
+    },
+    "done": true
+  },
+  "lightmanscurrency:recipes/misc/item_trade_filter_reset": {
+    "criteria": {
+      "paper": "2025-12-30 12:17:21 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/blueprint_paper": {
+    "criteria": {
+      "has_paper": "2025-12-30 12:17:21 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2025-12-30 12:17:21 +0700"
+    },
+    "done": true
+  },
+  "lightmanscurrency:recipes/misc/item_trade_filter": {
+    "criteria": {
+      "paper": "2025-12-30 12:17:21 +0700"
     },
     "done": true
   },
@@ -9043,15 +8776,292 @@
     },
     "done": true
   },
+  "twilightforest:twilight_hunter": {
+    "criteria": {
+      "kobold": "2025-12-30 12:20:13 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:progress_lich": {
+    "criteria": {
+      "twilight_scepter": "2025-12-30 12:20:29 +0700",
+      "kill_naga": "2025-12-30 12:20:29 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/twilight_scepter": {
+    "criteria": {
+      "has_item": "2025-12-30 12:20:29 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:progress_naga": {
+    "criteria": {
+      "scale": "2025-12-30 12:20:29 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:progress_trophy_pedestal": {
+    "criteria": {
+      "kill_lich": "2025-12-30 12:20:29 +0700",
+      "trophy_pedestal": "2025-12-30 12:21:20 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:progress_labyrinth": {
+    "criteria": {
+      "meef": "2025-12-30 12:55:04 +0700",
+      "kill_lich": "2025-12-30 12:20:29 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:progress_yeti": {
+    "criteria": {
+      "previous_progression": "2025-12-30 12:20:29 +0700",
+      "yeti": "2025-12-30 13:05:41 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:progress_knights": {
+    "criteria": {
+      "previous_progression": "2025-12-30 12:21:20 +0700",
+      "was_in_fight": "2025-12-30 12:27:56 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/material/armor_shard_cluster": {
+    "criteria": {
+      "has_item": "2025-12-30 12:22:01 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:progress_ur_ghast": {
+    "criteria": {
+      "previous_progression": "2025-12-30 12:27:56 +0700",
+      "was_in_fight": "2025-12-30 12:29:48 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/knight_phantom_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2025-12-30 12:28:04 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:progress_merge": {
+    "criteria": {
+      "hydra": "2025-12-30 12:56:57 +0700",
+      "snow_queen": "2025-12-30 13:06:02 +0700",
+      "ur_ghast": "2025-12-30 12:29:48 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/lich_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2025-12-30 12:32:33 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/fortification_scepter": {
+    "criteria": {
+      "has_item": "2025-12-30 12:32:37 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/maze_map": {
+    "criteria": {
+      "has_item": "2025-12-30 12:39:30 +0700"
+    },
+    "done": true
+  },
   "twilightforest:recipes/tools/charm_of_keeping_2": {
     "criteria": {
       "has_item": "2025-12-30 12:41:03 +0700"
     },
     "done": true
   },
+  "twilightforest:twilight_dinner": {
+    "criteria": {
+      "meef_stroganoff": "2025-12-30 12:55:04 +0700",
+      "hydra_chop": "2025-12-30 12:58:28 +0700",
+      "cooked_meef": "2025-12-30 12:41:37 +0700"
+    },
+    "done": false
+  },
+  "twilightforest:recipes/building_blocks/maze_stone/smelted_maze_stone_cracked": {
+    "criteria": {
+      "has_item": "2025-12-30 12:43:44 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/maze_stone/mossy_mazestone": {
+    "criteria": {
+      "has_item": "2025-12-30 12:43:44 +0700"
+    },
+    "done": true
+  },
+  "colossalchests:root": {
+    "criteria": {
+      "criteria_0": "2025-12-30 12:48:53 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/mushroom_rice": {
+    "criteria": {
+      "has_any_ingredient": "2025-12-30 12:50:21 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/mushroom_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-12-30 12:50:21 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_red_mushroom": "2025-12-30 12:50:21 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/mushroom_stew": {
     "criteria": {
       "has_red_mushroom": "2025-12-30 12:50:21 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/minoshroom_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2025-12-30 12:51:30 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/nether_salad": {
+    "criteria": {
+      "has_bowl": "2025-12-30 12:55:04 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:progress_hydra": {
+    "criteria": {
+      "stroganoff": "2025-12-30 12:55:04 +0700",
+      "was_in_fight": "2025-12-30 12:56:57 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/mixed_salad": {
+    "criteria": {
+      "has_bowl": "2025-12-30 12:55:04 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/compressed_blocks/arctic_block": {
+    "criteria": {
+      "has_item": "2025-12-30 12:59:26 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/arctic_leggings": {
+    "criteria": {
+      "has_item": "2025-12-30 12:59:26 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/arctic_chestplate": {
+    "criteria": {
+      "has_item": "2025-12-30 12:59:26 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/arctic_boots": {
+    "criteria": {
+      "has_item": "2025-12-30 12:59:26 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/arctic_helmet": {
+    "criteria": {
+      "has_item": "2025-12-30 12:59:26 +0700"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass_sapling": {
+    "criteria": {
+      "has_sapling": "2025-12-30 13:02:08 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2025-12-30 13:03:25 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2025-12-30 13:03:25 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/pie_crust": {
+    "criteria": {
+      "has_wheat": "2025-12-30 13:03:25 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/wheat_dough_from_egg": {
+    "criteria": {
+      "has_wheat": "2025-12-30 13:03:25 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:progress_glacier": {
+    "criteria": {
+      "previous_progression": "2025-12-30 13:05:41 +0700",
+      "queen": "2025-12-30 13:06:02 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/alpha_yeti_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2025-12-30 13:05:49 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:progress_troll": {
+    "criteria": {
+      "previous_progression": "2025-12-30 13:06:02 +0700",
+      "lamp": "2025-12-30 13:10:18 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:giants": {
+    "criteria": {
+      "giant": "2025-12-30 13:07:33 +0700"
+    },
+    "done": false
+  },
+  "twilightforest:arborist": {
+    "criteria": {
+      "giant_log": "2025-12-30 13:08:12 +0700"
+    },
+    "done": false
+  },
+  "twilightforest:recipes/building_blocks/giant_log_to_oak_planks": {
+    "criteria": {
+      "has_item": "2025-12-30 13:08:12 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/tin_ingot_from_ore": {
+    "criteria": {
+      "has_item": "2025-12-30 13:08:57 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/tin_ingot_from_ore_blasting": {
+    "criteria": {
+      "has_item": "2025-12-30 13:08:57 +0700"
     },
     "done": true
   },
@@ -9062,9 +9072,483 @@
     },
     "done": true
   },
-  "twilightforest:root": {
+  "twilightforest:recipes/combat/equipment/fiery_fiery_boots": {
     "criteria": {
-      "in_tf": "2025-12-30 12:15:24 +0700"
+      "has_item": "2025-12-30 14:26:37 +0700"
+    },
+    "done": true
+  },
+  "cataclysm:find_ruined_citadel": {
+    "criteria": {
+      "citadel": "2025-12-30 15:12:39 +0700"
+    },
+    "done": true
+  },
+  "silentgear:grader_catalyst_2": {
+    "criteria": {
+      "get_item": "2025-12-30 17:35:10 +0700"
+    },
+    "done": true
+  },
+  "silentgear:grader_catalyst_3": {
+    "criteria": {
+      "get_item": "2025-12-30 17:34:26 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/tyrian_steel_block": {
+    "criteria": {
+      "has_item": "2025-12-30 17:30:10 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab": {
+    "criteria": {
+      "has_end_stone_bricks": "2025-12-30 15:16:26 +0700"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_aviary": {
+    "criteria": {
+      "location0": "2025-12-30 15:10:50 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/raw_azure_silver_block": {
+    "criteria": {
+      "has_item": "2025-12-30 14:58:30 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-12-30 15:05:21 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/tyrian_steel_nugget": {
+    "criteria": {
+      "has_item": "2025-12-30 17:30:10 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/azure_electrum_dust_blasting": {
+    "criteria": {
+      "has_item": "2025-12-30 17:29:11 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_steel_dust_smelting": {
+    "criteria": {
+      "has_item": "2025-12-30 17:27:33 +0700"
+    },
+    "done": true
+  },
+  "silentgems:recipes/building_blocks/rose_quartz_glass": {
+    "criteria": {
+      "has_item": "2025-12-30 14:58:57 +0700"
+    },
+    "done": true
+  },
+  "silentgems:recipes/building_blocks/rose_quartz_lamp_inverted_on": {
+    "criteria": {
+      "has_item": "2025-12-30 14:58:57 +0700"
+    },
+    "done": true
+  },
+  "lightmanscurrency:currency/enchanted_wallet": {
+    "criteria": {
+      "enchanted_wallet": "2025-12-30 15:20:39 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/redstone/carminite_builder": {
+    "criteria": {
+      "has_item": "2025-12-30 14:26:38 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_steel_nugget": {
+    "criteria": {
+      "has_item": "2025-12-30 17:27:33 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/azure_repair_kit": {
+    "criteria": {
+      "has_item": "2025-12-30 17:29:11 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar": {
+    "criteria": {
+      "has_purpur_block": "2025-12-30 16:03:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2025-12-30 14:53:31 +0700"
+    },
+    "done": true
+  },
+  "lootr:1shulker": {
+    "criteria": {
+      "opened_shulker": "2025-12-30 15:40:46 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/azure_electrum_ingot_from_nugget": {
+    "criteria": {
+      "has_item": "2025-12-30 17:29:11 +0700"
+    },
+    "done": true
+  },
+  "cataclysm:kill_ender_golem": {
+    "criteria": {
+      "endergolem": "2025-12-30 15:36:31 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_steel_ingot_from_block": {
+    "criteria": {
+      "has_item": "2025-12-30 17:27:33 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/fiery_iron_sword": {
+    "criteria": {
+      "has_item": "2025-12-30 14:26:37 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/azure_electrum_nugget": {
+    "criteria": {
+      "has_item": "2025-12-30 17:29:11 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/fiery_fiery_leggings": {
+    "criteria": {
+      "has_item": "2025-12-30 14:26:37 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-12-30 15:05:21 +0700"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2025-12-30 15:30:21 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs": {
+    "criteria": {
+      "has_purpur_block": "2025-12-30 16:03:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2025-12-30 16:03:14 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_steel_ingot_from_nugget": {
+    "criteria": {
+      "has_item": "2025-12-30 17:27:33 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs": {
+    "criteria": {
+      "has_end_stone_bricks": "2025-12-30 15:16:26 +0700"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2025-12-30 14:44:40 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/azure_electrum_ingot_from_block": {
+    "criteria": {
+      "has_item": "2025-12-30 17:29:11 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/azure_electrum_dust": {
+    "criteria": {
+      "has_item": "2025-12-30 17:29:11 +0700"
+    },
+    "done": true
+  },
+  "cataclysm:kill_ender_guardian": {
+    "criteria": {
+      "enderguardian": "2025-12-30 15:51:38 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/tyrian_steel_dust_smelting": {
+    "criteria": {
+      "has_item": "2025-12-30 17:30:10 +0700"
+    },
+    "done": true
+  },
+  "silentgems:recipes/misc/rose_quartz_from_block": {
+    "criteria": {
+      "has_item": "2025-12-30 14:58:57 +0700"
+    },
+    "done": true
+  },
+  "silentgems:recipes/misc/rose_quartz_block": {
+    "criteria": {
+      "has_item": "2025-12-30 14:58:57 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2025-12-30 14:52:26 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_steel_dust": {
+    "criteria": {
+      "has_item": "2025-12-30 17:27:33 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/redstone/carminite_reactor": {
+    "criteria": {
+      "has_item": "2025-12-30 14:26:38 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/tyrian_steel_ingot_from_nugget": {
+    "criteria": {
+      "has_item": "2025-12-30 17:30:10 +0700"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2025-12-30 14:49:28 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2025-12-30 16:03:14 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/azure_silver_raw_ore_blasting": {
+    "criteria": {
+      "has_item": "2025-12-30 14:58:30 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2025-12-30 15:16:26 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab": {
+    "criteria": {
+      "has_purpur_block": "2025-12-30 16:03:14 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/compressed_blocks/carminite_block": {
+    "criteria": {
+      "has_item": "2025-12-30 14:26:38 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_steel_dust_blasting": {
+    "criteria": {
+      "has_item": "2025-12-30 17:27:33 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2025-12-30 15:05:21 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_steel_block": {
+    "criteria": {
+      "has_item": "2025-12-30 17:27:33 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/equipment/fiery_ingot_crafting": {
+    "criteria": {
+      "has_item": "2025-12-30 14:26:37 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall": {
+    "criteria": {
+      "has_end_stone_bricks": "2025-12-30 15:16:26 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/azure_electrum_block": {
+    "criteria": {
+      "has_item": "2025-12-30 17:29:11 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/fiery_fiery_chestplate": {
+    "criteria": {
+      "has_item": "2025-12-30 14:26:37 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/tyrian_steel_dust_blasting": {
+    "criteria": {
+      "has_item": "2025-12-30 17:30:10 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/raw_azure_silver_from_block": {
+    "criteria": {
+      "has_item": "2025-12-30 14:58:30 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/tyrian_steel_ingot_from_block": {
+    "criteria": {
+      "has_item": "2025-12-30 17:30:10 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_repair_kit": {
+    "criteria": {
+      "has_item": "2025-12-30 17:27:33 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2025-12-30 15:16:26 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template": {
+    "criteria": {
+      "has_spire_armor_trim_smithing_template": "2025-12-30 16:06:28 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2025-12-30 15:16:26 +0700"
+    },
+    "done": true
+  },
+  "silentgear:the_end": {
+    "criteria": {
+      "entered_the_end": "2025-12-30 14:49:28 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/tools/equipment/fiery_iron_pickaxe": {
+    "criteria": {
+      "has_item": "2025-12-30 14:26:37 +0700"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2025-12-30 15:12:55 +0700"
+    },
+    "done": true
+  },
+  "silentgear:azure_electrum": {
+    "criteria": {
+      "get_ingot": "2025-12-30 17:29:11 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/azure_electrum_dust_smelting": {
+    "criteria": {
+      "has_item": "2025-12-30 17:29:11 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-12-30 16:06:28 +0700"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2025-12-30 14:49:28 +0700"
+    },
+    "done": true
+  },
+  "silentgems:recipes/building_blocks/rose_quartz_bricks": {
+    "criteria": {
+      "has_item": "2025-12-30 14:58:57 +0700"
+    },
+    "done": true
+  },
+  "silentgems:recipes/building_blocks/rose_quartz_lamp": {
+    "criteria": {
+      "has_item": "2025-12-30 14:58:57 +0700"
+    },
+    "done": true
+  },
+  "silentgear:crimson_steel": {
+    "criteria": {
+      "get_item": "2025-12-30 17:27:33 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/combat/equipment/fiery_fiery_helmet": {
+    "criteria": {
+      "has_item": "2025-12-30 14:26:37 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2025-12-30 16:03:14 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/azure_silver_raw_ore_smelting": {
+    "criteria": {
+      "has_item": "2025-12-30 14:58:30 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/tyrian_steel_dust": {
+    "criteria": {
+      "has_item": "2025-12-30 17:30:10 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-12-30 15:05:21 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2025-12-30 15:05:21 +0700"
     },
     "done": true
   },
