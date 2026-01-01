@@ -2703,6 +2703,7 @@
       "minecraft:river": "2025-12-25 00:54:31 +0700",
       "minecraft:stony_shore": "2025-12-25 20:49:26 +0700",
       "minecraft:swamp": "2025-12-25 22:59:46 +0700",
+      "minecraft:cold_ocean": "2026-01-02 00:34:41 +0700",
       "minecraft:forest": "2025-12-25 00:50:48 +0700",
       "minecraft:deep_cold_ocean": "2025-12-25 22:52:06 +0700",
       "minecraft:windswept_forest": "2025-12-25 22:58:25 +0700",
@@ -5792,6 +5793,36 @@
   "minecraft:recipes/misc/red_dye_from_poppy": {
     "criteria": {
       "has_poppy": "2025-12-31 00:16:03 +0700"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/mob_ward": {
+    "criteria": {
+      "has_ancient_anima": "2026-01-02 00:49:29 +0700"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/levitation_block": {
+    "criteria": {
+      "has_ancient_anima": "2026-01-02 00:49:29 +0700"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/charged_ender_pearl": {
+    "criteria": {
+      "has_ancient_anima": "2026-01-02 00:49:29 +0700"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/staff_root": {
+    "criteria": {
+      "requirement": "2026-01-02 00:49:29 +0700"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/staff_blood_staff": {
+    "criteria": {
+      "requirement": "2026-01-02 00:49:29 +0700"
     },
     "done": true
   },

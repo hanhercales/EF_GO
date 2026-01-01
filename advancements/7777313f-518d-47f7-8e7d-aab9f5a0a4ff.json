@@ -2761,7 +2761,8 @@
   },
   "silentgear:standard_tools": {
     "criteria": {
-      "pickaxe": "2025-12-26 20:08:19 +0700"
+      "pickaxe": "2025-12-26 20:08:19 +0700",
+      "axe": "2026-01-02 01:02:38 +0700"
     },
     "done": false
   },
@@ -9786,6 +9787,108 @@
   "farmersdelight:recipes/decorations/oak_cabinet": {
     "criteria": {
       "has_oak_trapdoor": "2025-12-31 14:36:43 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/nagastone/nagastone_stairs_left": {
+    "criteria": {
+      "has_item": "2026-01-02 00:35:55 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2026-01-02 00:53:23 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/rough_rod2": {
+    "criteria": {
+      "has_item": "2026-01-02 01:47:53 +0700"
+    },
+    "done": true
+  },
+  "apotheosis:affix/ancient_gem": {
+    "criteria": {
+      "gem": "2026-01-02 01:58:35 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2026-01-02 01:21:18 +0700"
+    },
+    "done": true
+  },
+  "silentgear:crossbow": {
+    "criteria": {
+      "get_item": "2026-01-02 01:18:45 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/nagastone/mossy_nagastone_stairs_left": {
+    "criteria": {
+      "has_item": "2026-01-02 00:35:55 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_the_recipe": "2026-01-02 01:00:34 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/nagastone/mossy_nagastone_stairs_right": {
+    "criteria": {
+      "has_item": "2026-01-02 00:35:55 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/naga_banner_pattern": {
+    "criteria": {
+      "has_trophy": "2026-01-02 00:35:59 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/nagastone/smelted_cracked_etched_nagastone": {
+    "criteria": {
+      "has_item": "2026-01-02 00:35:55 +0700"
+    },
+    "done": true
+  },
+  "apotheosis:affix/gem_cut": {
+    "criteria": {
+      "cut": "2026-01-02 01:58:35 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/nagastone/nagastone_stairs_right": {
+    "criteria": {
+      "has_item": "2026-01-02 00:35:55 +0700"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/building_blocks/nagastone/mossy_etched_nagastone": {
+    "criteria": {
+      "has_item": "2026-01-02 00:35:55 +0700"
+    },
+    "done": true
+  },
+  "apotheosis:spawner/maxdelay": {
+    "criteria": {
+      "modifier": "2026-01-02 01:32:25 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sniper_duel": {
+    "criteria": {
+      "killed_skeleton": "2026-01-02 01:07:05 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/iron_ore_hammer": {
+    "criteria": {
+      "has_iron_block": "2026-01-02 01:21:18 +0700"
     },
     "done": true
   },
