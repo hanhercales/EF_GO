@@ -2870,9 +2870,10 @@
   "silentgear:swords": {
     "criteria": {
       "sword": "2025-12-29 02:27:54 +0700",
-      "katana": "2025-12-26 20:08:19 +0700"
+      "katana": "2025-12-26 20:08:19 +0700",
+      "machete": "2025-12-31 04:34:36 +0700"
     },
-    "done": false
+    "done": true
   },
   "twilightforest:recipes/transportation/time_chest_boat": {
     "criteria": {
@@ -9554,81 +9555,9 @@
     },
     "done": true
   },
-  "cataclysm:kill_harbinger": {
+  "bosses_of_mass_destruction:adventure/void_blossom_defeat": {
     "criteria": {
-      "theharbinger": "2025-12-31 01:14:12 +0700"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/dried_sinew": {
-    "criteria": {
-      "has_item": "2025-12-31 02:39:34 +0700"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/sinew_fiber": {
-    "criteria": {
-      "has_item": "2025-12-31 02:39:34 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/copper_ingot_from_waxed_copper_block": {
-    "criteria": {
-      "has_waxed_copper_block": "2025-12-31 01:11:14 +0700"
-    },
-    "done": true
-  },
-  "farmersdelight:main/plant_all_crops": {
-    "criteria": {
-      "chorus_flower": "2025-12-31 00:54:25 +0700"
-    },
-    "done": false
-  },
-  "minecraft:recipes/decorations/end_rod": {
-    "criteria": {
-      "has_chorus_fruit_popped": "2025-12-31 02:46:41 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_porkchop": {
-    "criteria": {
-      "has_porkchop": "2025-12-31 02:39:34 +0700"
-    },
-    "done": true
-  },
-  "betterdungeons:zombie_dungeon": {
-    "criteria": {
-      "in_better_zombie_dungeon": "2025-12-31 01:06:26 +0700"
-    },
-    "done": true
-  },
-  "cataclysm:find_sunken_city": {
-    "criteria": {
-      "factory": "2025-12-31 02:01:41 +0700"
-    },
-    "done": true
-  },
-  "apotheosis:enchanting/max_rectified": {
-    "criteria": {
-      "enchanted_item": "2025-12-31 02:17:58 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
-    "criteria": {
-      "has_porkchop": "2025-12-31 02:39:34 +0700"
-    },
-    "done": true
-  },
-  "irons_spellbooks:irons_spellbooks/enter_catacombs": {
-    "criteria": {
-      "in_catacombs": "2025-12-31 00:42:34 +0700"
-    },
-    "done": true
-  },
-  "apotheosis:enchanting/hellshelf": {
-    "criteria": {
-      "hellshelf": "2025-12-31 02:05:14 +0700"
+      "bosses_of_mass_destruction:void_blossom": "2025-12-31 00:12:49 +0700"
     },
     "done": true
   },
@@ -9638,51 +9567,21 @@
     },
     "done": true
   },
-  "apotheosis:enchanting/upgrade_endshelf": {
+  "irons_spellbooks:irons_spellbooks/enter_catacombs": {
     "criteria": {
-      "draconic": "2025-12-31 02:07:41 +0700"
+      "in_catacombs": "2025-12-31 00:42:34 +0700"
     },
     "done": true
   },
-  "apotheosis:enchanting/100ench": {
+  "farmersdelight:main/plant_all_crops": {
     "criteria": {
-      "enchanted_item": "2025-12-31 02:09:54 +0700"
+      "chorus_flower": "2025-12-31 00:54:25 +0700"
     },
-    "done": true
+    "done": false
   },
-  "farmersdelight:recipes/cooking/noodle_soup": {
+  "betterdungeons:zombie_dungeon": {
     "criteria": {
-      "has_any_ingredient": "2025-12-31 02:39:34 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/waxed_cut_copper": {
-    "criteria": {
-      "has_waxed_copper_block": "2025-12-31 01:11:14 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/arrow": {
-    "criteria": {
-      "has_feather": "2025-12-31 02:39:00 +0700"
-    },
-    "done": true
-  },
-  "apotheosis:enchanting/max_stats": {
-    "criteria": {
-      "enchanted_item": "2025-12-31 02:17:58 +0700"
-    },
-    "done": true
-  },
-  "bosses_of_mass_destruction:adventure/void_blossom_defeat": {
-    "criteria": {
-      "bosses_of_mass_destruction:void_blossom": "2025-12-31 00:12:49 +0700"
-    },
-    "done": true
-  },
-  "minecraft:end/dragon_breath": {
-    "criteria": {
-      "dragon_breath": "2025-12-31 01:35:15 +0700"
+      "in_better_zombie_dungeon": "2025-12-31 01:06:26 +0700"
     },
     "done": true
   },
@@ -9692,15 +9591,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+  "farmersdelight:recipes/decorations/acacia_cabinet": {
     "criteria": {
-      "has_porkchop": "2025-12-31 02:39:34 +0700"
+      "has_acacia_trapdoor": "2025-12-31 01:11:13 +0700"
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/pumpkin_soup": {
+  "minecraft:recipes/misc/copper_ingot_from_waxed_copper_block": {
     "criteria": {
-      "has_any_ingredient": "2025-12-31 02:39:34 +0700"
+      "has_waxed_copper_block": "2025-12-31 01:11:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper": {
+    "criteria": {
+      "has_waxed_copper_block": "2025-12-31 01:11:14 +0700"
     },
     "done": true
   },
@@ -9716,9 +9621,117 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_stairs_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2025-12-31 01:11:14 +0700"
+    },
+    "done": true
+  },
+  "cataclysm:kill_harbinger": {
+    "criteria": {
+      "theharbinger": "2025-12-31 01:14:12 +0700"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_breath": {
+    "criteria": {
+      "dragon_breath": "2025-12-31 01:35:15 +0700"
+    },
+    "done": true
+  },
+  "cataclysm:find_sunken_city": {
+    "criteria": {
+      "factory": "2025-12-31 02:01:41 +0700"
+    },
+    "done": true
+  },
   "apotheosis:enchanting/endshelf": {
     "criteria": {
       "endshelf": "2025-12-31 02:04:29 +0700"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/hellshelf": {
+    "criteria": {
+      "hellshelf": "2025-12-31 02:05:14 +0700"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/upgrade_endshelf": {
+    "criteria": {
+      "draconic": "2025-12-31 02:07:41 +0700"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/100ench": {
+    "criteria": {
+      "enchanted_item": "2025-12-31 02:09:54 +0700"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/max_rectified": {
+    "criteria": {
+      "enchanted_item": "2025-12-31 02:17:58 +0700"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/max_stats": {
+    "criteria": {
+      "enchanted_item": "2025-12-31 02:17:58 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2025-12-31 02:39:00 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/dried_sinew": {
+    "criteria": {
+      "has_item": "2025-12-31 02:39:34 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/sinew_fiber": {
+    "criteria": {
+      "has_item": "2025-12-31 02:39:34 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2025-12-31 02:39:34 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2025-12-31 02:39:34 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/noodle_soup": {
+    "criteria": {
+      "has_any_ingredient": "2025-12-31 02:39:34 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2025-12-31 02:39:34 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pumpkin_soup": {
+    "criteria": {
+      "has_any_ingredient": "2025-12-31 02:39:34 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_rod": {
+    "criteria": {
+      "has_chorus_fruit_popped": "2025-12-31 02:46:41 +0700"
     },
     "done": true
   },
@@ -9728,15 +9741,51 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/decorations/acacia_cabinet": {
+  "minecraft:recipes/decorations/smoker": {
     "criteria": {
-      "has_acacia_trapdoor": "2025-12-31 01:11:13 +0700"
+      "has_furnace": "2025-12-31 03:22:46 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/waxed_cut_copper_stairs_from_waxed_copper_block_stonecutting": {
+  "minecraft:recipes/misc/red_dye_from_tulip": {
     "criteria": {
-      "has_waxed_copper_block": "2025-12-31 01:11:14 +0700"
+      "has_red_flower": "2025-12-31 14:33:49 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_peony": {
+    "criteria": {
+      "has_peony": "2025-12-31 14:34:04 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2025-12-31 14:35:39 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/uranium_ingot_from_ore": {
+    "criteria": {
+      "has_item": "2025-12-31 14:35:39 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2025-12-31 14:35:39 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/uranium_ingot_from_ore_blasting": {
+    "criteria": {
+      "has_item": "2025-12-31 14:35:39 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/oak_cabinet": {
+    "criteria": {
+      "has_oak_trapdoor": "2025-12-31 14:36:43 +0700"
     },
     "done": true
   },

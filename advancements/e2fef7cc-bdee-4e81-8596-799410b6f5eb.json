@@ -2962,7 +2962,8 @@
   },
   "silentgear:swords": {
     "criteria": {
-      "katana": "2025-12-28 13:56:55 +0700"
+      "katana": "2025-12-28 13:56:55 +0700",
+      "machete": "2025-12-31 04:07:51 +0700"
     },
     "done": false
   },
@@ -3853,6 +3854,7 @@
       "minecraft:vindicator": "2025-12-29 15:37:31 +0700",
       "minecraft:spider": "2025-12-29 14:42:38 +0700",
       "minecraft:creeper": "2025-12-29 15:38:16 +0700",
+      "minecraft:wither": "2025-12-31 04:14:20 +0700",
       "minecraft:evoker": "2025-12-29 15:36:36 +0700",
       "minecraft:phantom": "2025-12-29 13:55:59 +0700",
       "minecraft:wither_skeleton": "2025-12-29 14:21:50 +0700",
@@ -7081,45 +7083,45 @@
     },
     "done": true
   },
+  "cataclysm:find_ancient_factory": {
+    "criteria": {
+      "factory": "2025-12-31 01:11:50 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2025-12-31 01:24:57 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2025-12-31 01:24:57 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/iridium_ingot_from_ore_blasting": {
+    "criteria": {
+      "has_item": "2025-12-31 01:25:21 +0700"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/iridium_ingot_from_ore": {
+    "criteria": {
+      "has_item": "2025-12-31 01:25:21 +0700"
+    },
+    "done": true
+  },
   "alltheores:recipes/misc/lead_ingot_from_ore_blasting": {
     "criteria": {
       "has_item": "2025-12-31 01:25:31 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blast_furnace": {
+  "alltheores:recipes/misc/lead_ingot_from_ore": {
     "criteria": {
-      "has_the_recipe": "2025-12-31 01:53:21 +0700"
-    },
-    "done": true
-  },
-  "silentgear:grader_catalyst_3": {
-    "criteria": {
-      "get_item": "2025-12-31 01:43:56 +0700"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/tyrian_steel_block": {
-    "criteria": {
-      "has_item": "2025-12-31 02:07:59 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/netherite_chestplate_smithing": {
-    "criteria": {
-      "has_netherite_ingot": "2025-12-31 02:09:43 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
-    "criteria": {
-      "has_ancient_debris": "2025-12-31 01:49:55 +0700"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/tyrian_steel_nugget": {
-    "criteria": {
-      "has_item": "2025-12-31 02:07:59 +0700"
+      "has_item": "2025-12-31 01:25:31 +0700"
     },
     "done": true
   },
@@ -7129,9 +7131,75 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_ingot_from_smelting_gold_ore": {
+  "silentgear:recipes/misc/azure_repair_kit": {
     "criteria": {
-      "has_gold_ore": "2025-12-31 01:58:40 +0700"
+      "has_item": "2025-12-31 01:33:58 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/azure_electrum_ingot_from_nugget": {
+    "criteria": {
+      "has_item": "2025-12-31 01:33:58 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/azure_electrum_nugget": {
+    "criteria": {
+      "has_item": "2025-12-31 01:33:58 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/azure_electrum_ingot_from_block": {
+    "criteria": {
+      "has_item": "2025-12-31 01:33:58 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/azure_electrum_dust": {
+    "criteria": {
+      "has_item": "2025-12-31 01:33:58 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/azure_electrum_block": {
+    "criteria": {
+      "has_item": "2025-12-31 01:33:58 +0700"
+    },
+    "done": true
+  },
+  "silentgear:azure_electrum": {
+    "criteria": {
+      "get_ingot": "2025-12-31 01:33:58 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/azure_electrum_dust_smelting": {
+    "criteria": {
+      "has_item": "2025-12-31 01:33:58 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_rod": {
+    "criteria": {
+      "has_chorus_fruit_popped": "2025-12-31 01:43:01 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_block": {
+    "criteria": {
+      "has_chorus_fruit_popped": "2025-12-31 01:43:01 +0700"
+    },
+    "done": true
+  },
+  "silentgear:grader_catalyst_3": {
+    "criteria": {
+      "get_item": "2025-12-31 01:43:56 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2025-12-31 01:49:55 +0700"
     },
     "done": true
   },
@@ -7141,33 +7209,123 @@
     },
     "done": true
   },
-  "farmersdelight:main/plant_all_crops": {
+  "minecraft:recipes/misc/netherite_scrap": {
     "criteria": {
-      "chorus_flower": "2025-12-31 02:32:12 +0700"
-    },
-    "done": false
-  },
-  "alltheores:recipes/misc/iridium_ingot_from_ore_blasting": {
-    "criteria": {
-      "has_item": "2025-12-31 01:25:21 +0700"
+      "has_ancient_debris": "2025-12-31 01:49:55 +0700"
     },
     "done": true
   },
-  "silentgear:recipes/misc/azure_repair_kit": {
+  "minecraft:recipes/decorations/smoker": {
     "criteria": {
-      "has_item": "2025-12-31 01:33:58 +0700"
+      "has_furnace": "2025-12-31 01:53:17 +0700"
     },
     "done": true
   },
-  "minecraft:nether/netherite_armor": {
+  "minecraft:recipes/decorations/blast_furnace": {
     "criteria": {
-      "netherite_armor": "2025-12-31 02:10:41 +0700"
+      "has_the_recipe": "2025-12-31 01:53:21 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/end_rod": {
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
     "criteria": {
-      "has_chorus_fruit_popped": "2025-12-31 01:43:01 +0700"
+      "has_smooth_stone": "2025-12-31 01:53:22 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2025-12-31 01:53:22 +0700"
+    },
+    "done": true
+  },
+  "artifacts:chest_slayer": {
+    "criteria": {
+      "kill_mimic": "2025-12-31 01:58:11 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_gold_ore": {
+    "criteria": {
+      "has_gold_ore": "2025-12-31 01:58:40 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_gold_ore": {
+    "criteria": {
+      "has_gold_ore": "2025-12-31 01:58:40 +0700"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-12-31 01:59:30 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-12-31 01:59:30 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2025-12-31 02:05:23 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/coating_smithing_template": {
+    "criteria": {
+      "has_item": "2025-12-31 02:05:23 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/tyrian_steel_block": {
+    "criteria": {
+      "has_item": "2025-12-31 02:07:59 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/tyrian_steel_nugget": {
+    "criteria": {
+      "has_item": "2025-12-31 02:07:59 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/tyrian_steel_dust_smelting": {
+    "criteria": {
+      "has_item": "2025-12-31 02:07:59 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/tyrian_steel_ingot_from_nugget": {
+    "criteria": {
+      "has_item": "2025-12-31 02:07:59 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/tyrian_steel_dust_blasting": {
+    "criteria": {
+      "has_item": "2025-12-31 02:07:59 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/tyrian_steel_ingot_from_block": {
+    "criteria": {
+      "has_item": "2025-12-31 02:07:59 +0700"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/tyrian_steel_dust": {
+    "criteria": {
+      "has_item": "2025-12-31 02:07:59 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-12-31 02:09:43 +0700"
     },
     "done": true
   },
@@ -7189,35 +7347,77 @@
     },
     "done": true
   },
-  "silentgear:recipes/misc/azure_electrum_ingot_from_nugget": {
-    "criteria": {
-      "has_item": "2025-12-31 01:33:58 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_blasting_gold_ore": {
-    "criteria": {
-      "has_gold_ore": "2025-12-31 01:58:40 +0700"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/azure_electrum_nugget": {
-    "criteria": {
-      "has_item": "2025-12-31 01:33:58 +0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/netherite_axe_smithing": {
     "criteria": {
       "has_netherite_ingot": "2025-12-31 02:09:43 +0700"
     },
     "done": true
   },
-  "minecraft:story/form_obsidian": {
+  "minecraft:recipes/combat/netherite_sword_smithing": {
     "criteria": {
-      "obsidian": "2025-12-31 01:59:30 +0700"
+      "has_netherite_ingot": "2025-12-31 02:09:43 +0700"
     },
     "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-12-31 02:09:43 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-12-31 02:09:43 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_netherite_ingot": "2025-12-31 02:09:43 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2025-12-31 02:09:43 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-12-31 02:09:43 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2025-12-31 02:09:43 +0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2025-12-31 02:10:41 +0700"
+    },
+    "done": true
+  },
+  "silentgear:armor": {
+    "criteria": {
+      "boots": "2025-12-31 02:23:11 +0700"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:the_wind_darkening": {
+    "criteria": {
+      "the_wind_darkening_0": "2025-12-31 02:31:50 +0700"
+    },
+    "done": true
+  },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "chorus_flower": "2025-12-31 02:32:12 +0700"
+    },
+    "done": false
   },
   "cataclysm:find_sunken_city": {
     "criteria": {
@@ -7231,207 +7431,39 @@
     },
     "done": true
   },
-  "silentgear:recipes/misc/azure_electrum_ingot_from_block": {
-    "criteria": {
-      "has_item": "2025-12-31 01:33:58 +0700"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/azure_electrum_dust": {
-    "criteria": {
-      "has_item": "2025-12-31 01:33:58 +0700"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/tyrian_steel_dust_smelting": {
-    "criteria": {
-      "has_item": "2025-12-31 02:07:59 +0700"
-    },
-    "done": true
-  },
-  "born_in_chaos_v1:the_wind_darkening": {
-    "criteria": {
-      "the_wind_darkening_0": "2025-12-31 02:31:50 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
-    "criteria": {
-      "has_coal_ore": "2025-12-31 01:24:57 +0700"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/tyrian_steel_ingot_from_nugget": {
-    "criteria": {
-      "has_item": "2025-12-31 02:07:59 +0700"
-    },
-    "done": true
-  },
-  "artifacts:chest_slayer": {
-    "criteria": {
-      "kill_mimic": "2025-12-31 01:58:11 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/netherite_sword_smithing": {
-    "criteria": {
-      "has_netherite_ingot": "2025-12-31 02:09:43 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
-    "criteria": {
-      "has_netherite_upgrade_smithing_template": "2025-12-31 02:05:23 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/netherite_leggings_smithing": {
-    "criteria": {
-      "has_netherite_ingot": "2025-12-31 02:09:43 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/smoker": {
-    "criteria": {
-      "has_furnace": "2025-12-31 01:53:17 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/netherite_hoe_smithing": {
-    "criteria": {
-      "has_netherite_ingot": "2025-12-31 02:09:43 +0700"
-    },
-    "done": true
-  },
   "apotheosis:enchanting/max_stats": {
     "criteria": {
       "enchanted_item": "2025-12-31 02:40:09 +0700"
     },
     "done": true
   },
-  "cataclysm:find_ancient_factory": {
+  "apotheosis:affix/socket": {
     "criteria": {
-      "factory": "2025-12-31 01:11:50 +0700"
+      "socket": "2025-12-31 03:47:25 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/misc/netherite_scrap": {
+  "minecraft:end/elytra": {
     "criteria": {
-      "has_ancient_debris": "2025-12-31 01:49:55 +0700"
+      "elytra": "2025-12-31 03:50:33 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
+  "apotheosis:enchanting/100ench": {
     "criteria": {
-      "has_coal_ore": "2025-12-31 01:24:57 +0700"
+      "enchanted_item": "2025-12-31 03:20:36 +0700"
     },
     "done": true
   },
-  "alltheores:recipes/misc/iridium_ingot_from_ore": {
+  "minecraft:recipes/misc/beacon": {
     "criteria": {
-      "has_item": "2025-12-31 01:25:21 +0700"
+      "has_nether_star": "2025-12-31 04:14:20 +0700"
     },
     "done": true
   },
-  "silentgear:recipes/misc/azure_electrum_block": {
+  "dungeons_arise:find_small_blimp": {
     "criteria": {
-      "has_item": "2025-12-31 01:33:58 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_stone_slab": {
-    "criteria": {
-      "has_smooth_stone": "2025-12-31 01:53:22 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
-    "criteria": {
-      "has_smooth_stone": "2025-12-31 01:53:22 +0700"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/tyrian_steel_dust_blasting": {
-    "criteria": {
-      "has_item": "2025-12-31 02:07:59 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/lodestone": {
-    "criteria": {
-      "has_netherite_ingot": "2025-12-31 02:09:43 +0700"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/tyrian_steel_ingot_from_block": {
-    "criteria": {
-      "has_item": "2025-12-31 02:07:59 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/netherite_block": {
-    "criteria": {
-      "has_netherite_ingot": "2025-12-31 02:09:43 +0700"
-    },
-    "done": true
-  },
-  "alltheores:recipes/misc/lead_ingot_from_ore": {
-    "criteria": {
-      "has_item": "2025-12-31 01:25:31 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/netherite_shovel_smithing": {
-    "criteria": {
-      "has_netherite_ingot": "2025-12-31 02:09:43 +0700"
-    },
-    "done": true
-  },
-  "silentgear:armor": {
-    "criteria": {
-      "boots": "2025-12-31 02:23:11 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purpur_block": {
-    "criteria": {
-      "has_chorus_fruit_popped": "2025-12-31 01:43:01 +0700"
-    },
-    "done": true
-  },
-  "silentgear:azure_electrum": {
-    "criteria": {
-      "get_ingot": "2025-12-31 01:33:58 +0700"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/azure_electrum_dust_smelting": {
-    "criteria": {
-      "has_item": "2025-12-31 01:33:58 +0700"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/coating_smithing_template": {
-    "criteria": {
-      "has_item": "2025-12-31 02:05:23 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
-    "criteria": {
-      "has_netherite_ingot": "2025-12-31 02:09:43 +0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/enchanting_table": {
-    "criteria": {
-      "has_obsidian": "2025-12-31 01:59:30 +0700"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/tyrian_steel_dust": {
-    "criteria": {
-      "has_item": "2025-12-31 02:07:59 +0700"
+      "location0": "2025-12-31 04:09:18 +0700"
     },
     "done": true
   },
